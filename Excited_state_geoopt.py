@@ -3,7 +3,7 @@ import os
 from scipy.optimize import minimize
 from BSE_calc_read  import  read_BSE_single_point_calc
 from BSE_calc_start import start_BSE_single_point_calc, calcdirname
-from Parameters import CONTROL_PARAMETERS
+from Parameters import CONTROL_PARAMETERS, CONSTANTS
 
 def run_excited_state_geoopt(input_parameters):
 
@@ -12,8 +12,6 @@ def run_excited_state_geoopt(input_parameters):
   # first BSE output: initial BSE calculation
   BSE_output_init = read_BSE_single_point_calc(input_parameters, 
                                  input_parameters.directory_BSE_initial_single_point_calc)
-
-  print("test =", BSE_output_init.E_ES*27.211)
 
   control_parameters = CONTROL_PARAMETERS()
 
@@ -29,14 +27,26 @@ def run_excited_state_geoopt(input_parameters):
       options={'disp': True, 'maxiter': 50}
   )
 
+  print(f"\nFinal energy: {BFGS_result.fun:.8f} Hartree ({BFGS_result.fun*CONSTANTS.eV:.3f} eV)")
+
+  # Print final geometry
+  final_coords = BFGS_result.x.reshape((-1, 3))
+  print("\nFinal coordinates (Angstrom):")
+  for i, (x, y, z) in enumerate(final_coords):
+      print(f"Atom {i+1}: {x:.6f} {y:.6f} {z:.6f}")
 
 def energy_function(coords_array, input_parameters, control_parameters):
 
-    print("INDEX = ", control_parameters.BSE_single_point_index)
+    control_parameters.BSE_gradient_index += 1
+    control_parameters.BSE_single_point_index = 0
 
     start_BSE_single_point_calc(input_parameters, control_parameters, coords_array)
 
-    energy = 0.2
+    calcdir = calcdirname(control_parameters, input_parameters)
+    BSE_output = read_BSE_single_point_calc(input_parameters, calcdir)
+
+    energy = BSE_output.E_tot
+
     return energy
 
 def gradient_function(coords_array, input_parameters, control_parameters):
@@ -57,29 +67,25 @@ def gradient_function(coords_array, input_parameters, control_parameters):
         start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_forward)
         start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_backward)
 
-#        input_parameters.set_geometry(coords_array_forward.reshape((n_atoms, 3)))
-#        E_plus = read_BSE_single_point_calc(input_parameters).E_ES
-#
-#        input_parameters.set_geometry(coords_array_backward.reshape((n_atoms, 3)))
-#        E_minus = read_BSE_single_point_calc(input_parameters).E_ES
-#
-#        grad[i] = (E_plus - E_minus) / (2 * delta)
-
-#        grad[i] = 0.1
 
     control_parameters.BSE_single_point_index = 0
 
     for i in range(len(coords_array)):
 
         control_parameters.BSE_single_point_index += 1
-        calcdir = calcdirname(control_parameters)
+        calcdir = calcdirname(control_parameters, input_parameters)
         BSE_output_1 = read_BSE_single_point_calc(input_parameters, calcdir)
+        E_plus = BSE_output_1.E_tot
 
         control_parameters.BSE_single_point_index += 1
-        calcdir = calcdirname(control_parameters)
+        calcdir = calcdirname(control_parameters, input_parameters)
         BSE_output_2 = read_BSE_single_point_calc(input_parameters, calcdir)
+        E_minus = BSE_output_2.E_tot
 
-        grad[i] = (BSE_output_2.E_tot - BSE_output_1.E_tot) / (2 * delta)
+        if BSE_output_1.BSE_success and BSE_output_2.BSE_success:
+           grad[i] = (E_plus - E_minus) / (2 * delta)
+        else:
+           grad[i] = 0.0
 
     return grad
 

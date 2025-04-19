@@ -38,6 +38,8 @@ class BSE_OUTPUT:
    E_ES  = -1.0
    E_tot = -1.0
 
+   BSE_success = False
+
 class CONSTANTS:
 
    eV = 27.211

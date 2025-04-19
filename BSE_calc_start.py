@@ -1,18 +1,17 @@
 from Parameters import BSE_OUTPUT, CONSTANTS
 import os
 import shutil
+import subprocess
 
 def start_BSE_single_point_calc(input_parameters, control_parameters, coords_array):
 
    control_parameters.BSE_single_point_index += 1
 
-   calcdir = calcdirname(control_parameters)
+   calcdir = calcdirname(control_parameters, input_parameters)
  
-   calcdirpath = os.path.join(input_parameters.directory_BSE_geoopt, calcdir)
+   shutil.copytree(input_parameters.directory_BSE_initial_single_point_calc, calcdir)
 
-   shutil.copytree(input_parameters.directory_BSE_initial_single_point_calc, calcdirpath)
-
-   os.chdir(calcdirpath)
+   os.chdir(calcdir)
 
    for filename in os.listdir('.'):
        if ("RESTART" in filename or "out" in filename or "ABBA" in filename) \
@@ -21,6 +20,8 @@ def start_BSE_single_point_calc(input_parameters, control_parameters, coords_arr
 
    write_new_coords_to_input(input_parameters, coords_array)
 
+   subprocess.run(["sbatch", "run.sh"], check=True, stdout=subprocess.DEVNULL, \
+                  stderr=subprocess.DEVNULL)
 
    os.chdir("../..")
 
@@ -60,7 +61,9 @@ def write_new_coords_to_input(input_parameters, coords_array):
        f.writelines(new_lines)
 
 
-def calcdirname(control_parameters):
+def calcdirname(control_parameters, input_parameters):
    calcdir = f"Grad_{control_parameters.BSE_gradient_index:03d}_single_point_{control_parameters.BSE_single_point_index:06d}"
+
+   calcdir = os.path.join(input_parameters.directory_BSE_geoopt, calcdir)
 
    return calcdir
