@@ -11,8 +11,6 @@ def read_BSE_single_point_calc(input_parameters):
    if not os.path.isfile(cp2k_out):
        raise FileNotFoundError(f"File '{cp2k_out}' does not exist.")
 
-   struc = []
-
    # Try UTF-8 first, fallback to Latin-1 if decoding fails
    try:
        with open(cp2k_out, 'r', encoding='utf-8') as f:
@@ -45,7 +43,9 @@ def read_BSE_single_point_calc(input_parameters):
        raise ValueError("Could not find atomic coordinates section in the file.")
 
    # Skip two lines (header + column names)
-   coord_lines = lines[start_idx_struc + 3:]
+   coord_lines  = lines[start_idx_struc + 3:]
+   struc        = []
+   coords_array = []
 
    for line in coord_lines:
        line = line.strip()
@@ -57,6 +57,7 @@ def read_BSE_single_point_calc(input_parameters):
        element = parts[2]
        x, y, z = map(float, parts[4:7])
        struc.append([element, (x, y, z)])
+       coords_array.extend([x, y, z])
 
    print("\nMolecular geometry: Atom type, x, y, z (in Angström)")
    for elem, coords in struc:
@@ -65,9 +66,10 @@ def read_BSE_single_point_calc(input_parameters):
    print(f"\nExcited state energy: {E_ES:.8f} Hartree ({E_ES*CONSTANTS.eV:.4f} eV)")
    print(f"\n")
 
-   BSE_output_1.struc  = struc
-   BSE_output_1.E_GS   = E_GS
-   BSE_output_1.E_ES   = E_ES
-   BSE_output_1.E_tot  = E_GS + E_ES
+   BSE_output_1.struc        = struc
+   BSE_output_1.coords_array = coords_array
+   BSE_output_1.E_GS         = E_GS
+   BSE_output_1.E_ES         = E_ES
+   BSE_output_1.E_tot        = E_GS + E_ES
 
    return BSE_output_1

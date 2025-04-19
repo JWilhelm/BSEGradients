@@ -20,7 +20,7 @@ def run_excited_state_geoopt(input_parameters):
 
   BFGS_result = minimize(
       fun=energy_function,
-      x0=BSE_output_init.coord_array,
+      x0=BSE_output_init.coords_array,
       jac=gradient_function,
       args=(input_parameters,control_parameters,),
       method='BFGS',

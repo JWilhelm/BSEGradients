@@ -22,7 +22,6 @@ def start_BSE_single_point_calc(input_parameters, control_parameters, coords_arr
    os.chdir("../..")
 
 
-
 def write_new_coords_to_input(input_parameters, coords_array):
 
    with open(input_parameters.BSE_input_file_name, 'r') as f:
@@ -43,10 +42,12 @@ def write_new_coords_to_input(input_parameters, coords_array):
            continue
    
        if inside_coord:
-           x = coords_array[atom_index * 3 + 0]   + 10000000000000000
+           parts = line.strip().split()
+           atom_type = parts[0]
+           x = coords_array[atom_index * 3 + 0] 
            y = coords_array[atom_index * 3 + 1]
            z = coords_array[atom_index * 3 + 2]
-           new_lines.append(f"  H  {x:.6f}  {y:.6f}  {z:.6f}\n")
+           new_lines.append(f"   {atom_type}  {x:.6f}  {y:.6f}  {z:.6f}\n")
            atom_index += 1
        else:
            new_lines.append(line)
