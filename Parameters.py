@@ -10,16 +10,29 @@ class INPUT_PARAMETERS:
 
    excited_state_to_optimize                = 1
 
-   atom_displacement_in_Bohr                = 0.01
+   atom_displacement_in_Angstrom            = 0.01
 
-   
+   threshold_energy_change_eV               = 0.001
+
+
+class CONTROL_PARAMETERS:
+
+   BFGS_geoopt_iteration                    = 0
+
+   BSE_displacement_index                   = 0
+
+   total_number_of_BSE_calcs                = 0
+
+
 class BSE_OUTPUT:
 
    struc = [
-                ['A', (0.0, 0.0, 0.0)],
-                ['B', (0.0, 0.0, 0.0)],
-                ['C', (0.0, 0.0, 0.0)],
+                ['A', (0.0, 0.1, 0.2)],
+                ['B', (0.3, 0.4, 0.5)],
+                ['C', (0.6, 0.7, 0.8)],
            ]
+
+   coord_array = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
 
    E_GS  = -1.0
    E_ES  = -1.0
