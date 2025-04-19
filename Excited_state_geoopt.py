@@ -1,6 +1,8 @@
 import numpy as np
+import os
 from scipy.optimize import minimize
-from Read_BSE_calcs import read_BSE_single_point_calc
+from BSE_calc_read  import  read_BSE_single_point_calc
+from BSE_calc_start import start_BSE_single_point_calc
 from Parameters import CONTROL_PARAMETERS
 
 def run_excited_state_geoopt(input_parameters):
@@ -13,6 +15,8 @@ def run_excited_state_geoopt(input_parameters):
   print("test =", BSE_output_init.E_ES*27.211)
 
   control_parameters = CONTROL_PARAMETERS()
+
+  os.mkdir(input_parameters.directory_BSE_geoopt)
 
   BFGS_result = minimize(
       fun=energy_function,
@@ -27,15 +31,18 @@ def run_excited_state_geoopt(input_parameters):
 
 def energy_function(coords_array, input_parameters, control_parameters):
 
-    control_parameters.BFGS_geoopt_iteration  += 10
-    control_parameters.BSE_displacement_index += 1
+    control_parameters.BSE_single_point_index += 1
 
-    print("INDEX = ", control_parameters.BSE_displacement_index)
+    print("INDEX = ", control_parameters.BSE_single_point_index)
+
+    start_BSE_single_point_calc(input_parameters, control_parameters, coords_array)
 
     energy = 0.2
     return energy
 
 def gradient_function(coords_array, input_parameters, control_parameters):
+
+    control_parameters.BSE_gradient_index += 1
 
     n_atoms = len(coords_array) // 3
     grad = np.zeros_like(coords_array)

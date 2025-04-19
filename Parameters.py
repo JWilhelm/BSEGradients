@@ -17,11 +17,9 @@ class INPUT_PARAMETERS:
 
 class CONTROL_PARAMETERS:
 
-   BFGS_geoopt_iteration                    = 0
+   BSE_gradient_index                       = 0
 
-   BSE_displacement_index                   = 0
-
-   total_number_of_BSE_calcs                = 0
+   BSE_single_point_index                   = 0
 
 
 class BSE_OUTPUT:
