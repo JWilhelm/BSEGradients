@@ -22,3 +22,7 @@ class BSE_OUTPUT:
    E_GS = -1.0
    E_ES = -1.0
 
+
+class CONSTANTS:
+
+   eV = 27.211
