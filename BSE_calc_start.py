@@ -4,6 +4,8 @@ import shutil
 
 def start_BSE_single_point_calc(input_parameters, control_parameters, coords_array):
 
+   control_parameters.BSE_single_point_index += 1
+
    calcdir = f"Grad_{control_parameters.BSE_gradient_index:03d}_single_point_{control_parameters.BSE_single_point_index:06d}"
 
    calcdirpath = os.path.join(input_parameters.directory_BSE_geoopt, calcdir)
@@ -18,6 +20,7 @@ def start_BSE_single_point_calc(input_parameters, control_parameters, coords_arr
            os.remove(filename)
 
    write_new_coords_to_input(input_parameters, coords_array)
+
 
    os.chdir("../..")
 

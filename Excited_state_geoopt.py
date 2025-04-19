@@ -31,8 +31,6 @@ def run_excited_state_geoopt(input_parameters):
 
 def energy_function(coords_array, input_parameters, control_parameters):
 
-    control_parameters.BSE_single_point_index += 1
-
     print("INDEX = ", control_parameters.BSE_single_point_index)
 
     start_BSE_single_point_calc(input_parameters, control_parameters, coords_array)
@@ -53,6 +51,9 @@ def gradient_function(coords_array, input_parameters, control_parameters):
         coords_array_backward = coords_array.copy()
         coords_array_forward[i] += delta
         coords_array_backward[i] -= delta
+
+        start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_forward)
+        start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_backward)
 
 #        input_parameters.set_geometry(coords_array_forward.reshape((n_atoms, 3)))
 #        E_plus = read_BSE_single_point_calc(input_parameters).E_ES
