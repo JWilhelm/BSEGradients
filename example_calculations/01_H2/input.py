@@ -1,8 +1,6 @@
-from BSEGradients import parameters, run_excited_state_geoopt
+from Parameters import input_parameters
+from Excited_state_geoopt import run_excited_state_geoopt
 
-params = parameters()
-
-params.directory_BSE_calcs         = "./BSE"
-params.excited_state_to_optimize   = 1
+params = input_parameters()
 
 run_excited_state_geoopt(params)

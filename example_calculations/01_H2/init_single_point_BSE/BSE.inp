@@ -1,0 +1,81 @@
+&GLOBAL
+  PROJECT_NAME Uracil
+  RUN_TYPE ENERGY
+&END GLOBAL
+
+&FORCE_EVAL
+  METHOD QS
+  &DFT
+    ! The potentials are kept as exact copies with the output for provenance
+    POTENTIAL_FILE_NAME GTH_POTENTIALS
+    BASIS_SET_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/45_excited_state_forces/BASIS_AUG_MOLOPT/BASIS_GTH_MOLOPT_AUG_for_excited_states
+    BASIS_SET_FILE_NAME /scratch/hpc-prf-metdyn/eprop2d1_Jan/45_excited_state_forces/BASIS_AUG_MOLOPT/BASIS_GTH_MOLOPT_AUG_for_excited_states_RI
+    &MGRID
+      CUTOFF 600
+      REL_CUTOFF 60
+    &END MGRID
+    &QS
+      EPS_DEFAULT 1.0E-12
+      METHOD GPW
+    &END QS
+    &SCF
+      SCF_GUESS RESTART
+      EPS_SCF 1e-9
+      MAX_SCF 200
+      ADDED_MOS -1
+      &DIAGONALIZATION ON
+        ALGORITHM STANDARD
+      &END DIAGONALIZATION
+      &MIXING
+        METHOD BROYDEN_MIXING
+        ALPHA 0.4
+        NBROYDEN 4
+      &END MIXING
+    &END SCF
+    &XC
+      &XC_FUNCTIONAL PBE
+      &END XC_FUNCTIONAL
+      &WF_CORRELATION
+        &RI_RPA
+          QUADRATURE_POINTS 300
+          &GW
+            RI_SIGMA_X
+            NPARAM_PADE 64
+            CORR_MOS_OCC -1
+            CORR_MOS_VIRT -1
+            &BSE
+              TDA OFF
+              &BSE_SPECTRUM
+                ETA_LIST 0.13
+                FREQUENCY_STEP_SIZE [eV] 0.02
+              &END BSE_SPECTRUM
+            &END BSE
+          &END GW
+        &END RI_RPA
+      &END WF_CORRELATION
+    &END XC
+    &POISSON
+      PERIODIC NONE
+      POISSON_SOLVER WAVELET
+    &END POISSON
+  &END DFT
+  &SUBSYS
+    &CELL
+      PERIODIC NONE
+      ABC 10.0 10.0 10.0
+    &END CELL
+    &COORD
+      H  0.000000  0.000000  0.000000
+      H  0.000000  0.000000  0.740000
+    &END COORD
+    &TOPOLOGY
+      &CENTER_COORDINATES
+      &END CENTER_COORDINATES
+    &END TOPOLOGY
+    &KIND H
+      POTENTIAL GTH-PBE
+      BASIS_SET ORB    aug-DZVP-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-DZVP-MOLOPT-GTH_N_RI_022_s_p_d_f_g_h_i_5_4_1_0_0_0_0_error_4.8e-07
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL

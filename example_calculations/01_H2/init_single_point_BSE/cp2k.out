@@ -1,0 +1,1794 @@
+cpu-bind=MASK - n2cn0171, task  0  0 [289529]: mask |BBBBBBBB|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  1  1 [289530]: mask |--------|BBBBBBBB||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  2  2 [289531]: mask |--------|--------||BBBBBBBB|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  3  3 [289532]: mask |--------|--------||--------|BBBBBBBB||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  4  4 [289533]: mask |--------|--------||--------|--------||BBBBBBBB|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  5  5 [289534]: mask |--------|--------||--------|--------||--------|BBBBBBBB||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  6  6 [289535]: mask |--------|--------||--------|--------||--------|--------||BBBBBBBB|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  7  7 [289536]: mask |--------|--------||--------|--------||--------|--------||--------|BBBBBBBB||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  8  8 [289537]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||BBBBBBBB|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task  9  9 [289538]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|BBBBBBBB||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task 10 10 [289539]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||BBBBBBBB|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task 11 11 [289540]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|BBBBBBBB||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task 12 12 [289541]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||BBBBBBBB|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task 13 13 [289542]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|BBBBBBBB||--------|--------|  set
+cpu-bind=MASK - n2cn0171, task 14 14 [289543]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||BBBBBBBB|--------|  set
+cpu-bind=MASK - n2cn0171, task 15 15 [289544]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|BBBBBBBB|  set
+2025-04-19 14:36:32.633618: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633703: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633712: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633712: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633695: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633710: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633708: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.633712: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637926: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637927: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637930: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637915: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637933: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637925: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637931: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.637939: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2025-04-19 14:36:32.659295: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659316: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659339: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659277: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659297: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659330: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659276: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659297: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659326: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659278: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659297: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659327: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659584: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659606: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659625: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659797: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659814: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659839: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659797: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659814: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659838: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.659819: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.659835: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.659857: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.663713: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.663729: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.663752: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.663719: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.663734: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.663754: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.663714: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.663730: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.663752: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.663710: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.663728: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.663752: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.664042: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.664060: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.664079: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.664211: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.664232: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.664249: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.664266: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.664285: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.664304: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-19 14:36:32.664376: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-19 14:36:32.664392: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-19 14:36:32.664415: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+[n2cn0171:289530] MCW rank 1 bound to socket 0[core 8[hwt 0]]: [././././././././B/././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289530] MCW rank 1 bound to socket 0[core 8[hwt 0]]: [././././././././B/././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289536] MCW rank 7 bound to socket 0[core 56[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././././././././././B/././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289533] MCW rank 4 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289536] MCW rank 7 bound to socket 0[core 56[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././././././././././B/././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289533] MCW rank 4 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289532] MCW rank 3 bound to socket 0[core 24[hwt 0]]: [././././././././././././././././././././././././B/././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289532] MCW rank 3 bound to socket 0[core 24[hwt 0]]: [././././././././././././././././././././././././B/././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289531] MCW rank 2 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289531] MCW rank 2 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289534] MCW rank 5 bound to socket 0[core 40[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././B/././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289534] MCW rank 5 bound to socket 0[core 40[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././B/././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289537] MCW rank 8 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289537] MCW rank 8 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289544] MCW rank 15 bound to socket 1[core 120[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././././././././././B/././././././.]
+[n2cn0171:289544] MCW rank 15 bound to socket 1[core 120[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././././././././././B/././././././.]
+[n2cn0171:289535] MCW rank 6 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289535] MCW rank 6 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289529] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289529] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289543] MCW rank 14 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0171:289542] MCW rank 13 bound to socket 1[core 104[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././B/././././././././././././././././././././././.]
+[n2cn0171:289543] MCW rank 14 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0171:289542] MCW rank 13 bound to socket 1[core 104[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././B/././././././././././././././././././././././.]
+[n2cn0171:289539] MCW rank 10 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289541] MCW rank 12 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0171:289538] MCW rank 9 bound to socket 1[core 72[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././B/././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289539] MCW rank 10 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289541] MCW rank 12 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0171:289540] MCW rank 11 bound to socket 1[core 88[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././B/././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289538] MCW rank 9 bound to socket 1[core 72[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././B/././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0171:289540] MCW rank 11 bound to socket 1[core 88[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././B/././././././././././././././././././././././././././././././././././././././.]
+ DBCSR| CPU Multiplication driver                                           BLAS (U)
+ DBCSR| Multrec recursion limit                                              512 (U)
+ DBCSR| Multiplication stack size                                           1000 (D)
+ DBCSR| Maximum elements for images                                    UNLIMITED (U)
+ DBCSR| Multiplicative factor virtual images                                   1 (U)
+ DBCSR| Use multiplication densification                                       T (D)
+ DBCSR| Multiplication size stacks                                             3 (U)
+ DBCSR| Use memory pool for CPU allocation                                     F (U)
+ DBCSR| Number of 3D layers                                               SINGLE (U)
+ DBCSR| Use MPI memory allocation                                              F (U)
+ DBCSR| Use RMA algorithm                                                      F (U)
+ DBCSR| Use Communication thread                                               T (U)
+ DBCSR| Communication thread load                                             60 (D)
+ DBCSR| MPI: My process id                                                     0
+ DBCSR| MPI: Number of processes                                              16
+ DBCSR| OMP: Current number of threads                                         8
+ DBCSR| OMP: Max number of threads                                             8
+ DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00 (U)
+
+
+  **** **** ******  **  PROGRAM STARTED AT               2025-04-19 14:36:32.677
+ ***** ** ***  *** **   PROGRAM STARTED ON                              n2cn0171
+ **    ****   ******    PROGRAM STARTED BY                              eprop2d1
+ ***** **    ** ** **   PROGRAM PROCESS ID                                289529
+  **** **  *******  **  PROGRAM STARTED IN /scratch/hpc-prf-metdyn/eprop2d1_Jan/
+                                           45_excited_state_forces/BSEGradients/
+                                           example_calculations/01_H2/init_singl
+                                           e_point_BSE
+
+ CP2K| version string:                 CP2K version 2025.1 (Development Version)
+ CP2K| source code revision number:                                  git:f8b3abc
+ CP2K| cp2kflags: omp libint fftw3 libxc libgrpp elpa parallel scalapack mpi_f08
+ CP2K|             deepmd plumed2 spglib libvori libbqb libvdwxc hdf5
+ CP2K| is freely available from                            https://www.cp2k.org/
+ CP2K| Program compiled at                          Sun Jan 12 10:39:13 CET 2025
+ CP2K| Program compiled on                                              n2login6
+ CP2K| Program compiled for                                                local
+ CP2K| Data directory path    /opt/software/pc2/EB-SW/software/CP2K/2024.1-foss-
+ CP2K| Input file name                                                   BSE.inp
+
+ GLOBAL| Force Environment number                                              1
+ GLOBAL| Basis set file name            /scratch/hpc-prf-metdyn/eprop2d1_Jan/45_
+ GLOBAL| Potential file name                                      GTH_POTENTIALS
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                      __STD_INPUT__
+ GLOBAL| Method name                                                        CP2K
+ GLOBAL| Project name                                                     Uracil
+ GLOBAL| Run type                                                         ENERGY
+ GLOBAL| FFT library                                                       FFTW3
+ GLOBAL| Diagonalization library                                            ELPA
+ GLOBAL| DGEMM library                                                      BLAS
+ GLOBAL| Minimum number of eigenvectors for ELPA usage                        16
+ GLOBAL| Orthonormality check for eigenvectors                          DISABLED
+ GLOBAL| Matrix multiplication library                                 ScaLAPACK
+ GLOBAL| All-to-all communication in single precision                          F
+ GLOBAL| FFTs using library dependent lengths                                  F
+ GLOBAL| Grid backend                                                       AUTO
+ GLOBAL| Global print level                                               MEDIUM
+ GLOBAL| MPI I/O enabled                                                       T
+ GLOBAL| Total number of message passing processes                            16
+ GLOBAL| Number of threads for this process                                    8
+ GLOBAL| This output is from process                                           0
+ GLOBAL| OpenMP stack size per thread (OMP_STACKSIZE)                    default
+ GLOBAL| CPU model name                          AMD EPYC 7763 64-Core Processor
+ GLOBAL| CPUID                                                              1002
+
+ MEMORY| system memory details [Kb]
+ MEMORY|                        rank 0           min           max       average
+ MEMORY| MemTotal            263899260     263899260     263899260     263899260
+ MEMORY| MemFree             251086304     251086304     251086304     251086304
+ MEMORY| Buffers                131776        131776        131776        131776
+ MEMORY| Cached                5164572       5164572       5164572       5164572
+ MEMORY| Slab                  1355312       1355312       1355312       1355312
+ MEMORY| SReclaimable           223168        223168        223168        223168
+ MEMORY| MemLikelyFree       256605820     256605820     256605820     256605820
+
+
+ *** Fundamental physical constants (SI units) ***
+
+ *** Literature: B. J. Mohr and B. N. Taylor,
+ ***             CODATA recommended values of the fundamental physical
+ ***             constants: 2006, Web Version 5.1
+ ***             http://physics.nist.gov/constants
+
+ Speed of light in vacuum [m/s]                             2.99792458000000E+08
+ Magnetic constant or permeability of vacuum [N/A**2]       1.25663706143592E-06
+ Electric constant or permittivity of vacuum [F/m]          8.85418781762039E-12
+ Planck constant (h) [J*s]                                  6.62606896000000E-34
+ Planck constant (h-bar) [J*s]                              1.05457162825177E-34
+ Elementary charge [C]                                      1.60217648700000E-19
+ Electron mass [kg]                                         9.10938215000000E-31
+ Electron g factor [ ]                                     -2.00231930436220E+00
+ Proton mass [kg]                                           1.67262163700000E-27
+ Fine-structure constant                                    7.29735253760000E-03
+ Rydberg constant [1/m]                                     1.09737315685270E+07
+ Avogadro constant [1/mol]                                  6.02214179000000E+23
+ Boltzmann constant [J/K]                                   1.38065040000000E-23
+ Atomic mass unit [kg]                                      1.66053878200000E-27
+ Bohr radius [m]                                            5.29177208590000E-11
+
+ *** Conversion factors ***
+
+ [u] -> [a.u.]                                              1.82288848426455E+03
+ [Angstrom] -> [Bohr] = [a.u.]                              1.88972613288564E+00
+ [a.u.] = [Bohr] -> [Angstrom]                              5.29177208590000E-01
+ [a.u.] -> [s]                                              2.41888432650478E-17
+ [a.u.] -> [fs]                                             2.41888432650478E-02
+ [a.u.] -> [J]                                              4.35974393937059E-18
+ [a.u.] -> [N]                                              8.23872205491840E-08
+ [a.u.] -> [K]                                              3.15774647902944E+05
+ [a.u.] -> [kJ/mol]                                         2.62549961709828E+03
+ [a.u.] -> [kcal/mol]                                       6.27509468713739E+02
+ [a.u.] -> [Pa]                                             2.94210107994716E+13
+ [a.u.] -> [bar]                                            2.94210107994716E+08
+ [a.u.] -> [atm]                                            2.90362800883016E+08
+ [a.u.] -> [eV]                                             2.72113838565563E+01
+ [a.u.] -> [Hz]                                             6.57968392072181E+15
+ [a.u.] -> [1/cm] (wave numbers)                            2.19474631370540E+05
+ [a.u./Bohr**2] -> [1/cm]                                   5.14048714338585E+03
+ 
+
+ CELL_TOP| Volume [angstrom^3]:                                      1000.000000
+ CELL_TOP| Vector a [angstrom    10.000     0.000     0.000   |a| =    10.000000
+ CELL_TOP| Vector b [angstrom     0.000    10.000     0.000   |b| =    10.000000
+ CELL_TOP| Vector c [angstrom     0.000     0.000    10.000   |c| =    10.000000
+ CELL_TOP| Angle (b,c), alpha [degree]:                                90.000000
+ CELL_TOP| Angle (a,c), beta  [degree]:                                90.000000
+ CELL_TOP| Angle (a,b), gamma [degree]:                                90.000000
+ CELL_TOP| Numerically orthorhombic:                                         YES
+ CELL_TOP| Periodicity                                                      NONE
+
+ GENERATE|  Preliminary Number of Bonds generated:                             0
+ GENERATE|  Achieved consistency in connectivity generation.
+
+ CELL| Volume [angstrom^3]:                                          1000.000000
+ CELL| Vector a [angstrom]:      10.000     0.000     0.000   |a| =    10.000000
+ CELL| Vector b [angstrom]:       0.000    10.000     0.000   |b| =    10.000000
+ CELL| Vector c [angstrom]:       0.000     0.000    10.000   |c| =    10.000000
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                          NONE
+
+ CELL_REF| Volume [angstrom^3]:                                      1000.000000
+ CELL_REF| Vector a [angstrom    10.000     0.000     0.000   |a| =    10.000000
+ CELL_REF| Vector b [angstrom     0.000    10.000     0.000   |b| =    10.000000
+ CELL_REF| Vector c [angstrom     0.000     0.000    10.000   |c| =    10.000000
+ CELL_REF| Angle (b,c), alpha [degree]:                                90.000000
+ CELL_REF| Angle (a,c), beta  [degree]:                                90.000000
+ CELL_REF| Angle (a,b), gamma [degree]:                                90.000000
+ CELL_REF| Numerically orthorhombic:                                         YES
+ CELL_REF| Periodicity                                                      NONE
+
+ *******************************************************************************
+ *******************************************************************************
+ **                                                                           **
+ **     #####                         ##              ##                      **
+ **    ##   ##            ##          ##              ##                      **
+ **   ##     ##                       ##            ######                    **
+ **   ##     ##  ##   ##  ##   #####  ##  ##   ####   ##    #####    #####    **
+ **   ##     ##  ##   ##  ##  ##      ## ##   ##      ##   ##   ##  ##   ##   **
+ **   ##  ## ##  ##   ##  ##  ##      ####     ###    ##   ######   ######    **
+ **    ##  ###   ##   ##  ##  ##      ## ##      ##   ##   ##       ##        **
+ **     #######   #####   ##   #####  ##  ##  ####    ##    #####   ##        **
+ **           ##                                                    ##        **
+ **                                                                           **
+ **                                                ... make the atoms dance   **
+ **                                                                           **
+ **            Copyright (C) by CP2K developers group (2000-2025)             **
+ **                      J. Chem. Phys. 152, 194103 (2020)                    **
+ **                                                                           **
+ *******************************************************************************
+
+ DFT| Spin restricted Kohn-Sham (RKS) calculation                            RKS
+ DFT| Multiplicity                                                             1
+ DFT| Number of spin states                                                    1
+ DFT| Charge                                                                   0
+ DFT| Self-interaction correction (SIC)                                       NO
+ DFT| Cutoffs: density                                              1.000000E-10
+ DFT|          gradient                                             1.000000E-10
+ DFT|          tau                                                  1.000000E-10
+ DFT|          cutoff_smoothing_range                               0.000000E+00
+ DFT| XC density smoothing                                                  NONE
+ DFT| XC derivatives                                                          PW
+
+ FUNCTIONAL| PBE:
+ FUNCTIONAL| J.P.Perdew, K.Burke, M.Ernzerhof, Phys. Rev. Letter, vol. 77, n 18,
+ FUNCTIONAL|  pp. 3865-3868, (1996) {spin unpolarized}                          
+
+
+ QS| Method:                                                                 GPW
+ QS| Density plane wave grid type                        NON-SPHERICAL FULLSPACE
+ QS| Number of grid levels:                                                    4
+ QS| Density cutoff [a.u.]:                                                300.0
+ QS| Multi grid cutoff [a.u.]: 1) grid level                               300.0
+ QS|                           2) grid level                               100.0
+ QS|                           3) grid level                                33.3
+ QS|                           4) grid level                                11.1
+ QS| Grid level progression factor:                                          3.0
+ QS| Relative density cutoff [a.u.]:                                        30.0
+ QS| Interaction thresholds: eps_pgf_orb:                                1.0E-06
+ QS|                         eps_filter_matrix:                          0.0E+00
+ QS|                         eps_core_charge:                            1.0E-14
+ QS|                         eps_rho_gspace:                             1.0E-12
+ QS|                         eps_rho_rspace:                             1.0E-12
+ QS|                         eps_gvg_rspace:                             1.0E-06
+ QS|                         eps_ppl:                                    1.0E-02
+ QS|                         eps_ppnl:                                   1.0E-08
+
+
+ ATOMIC KIND INFORMATION
+
+  1. Atomic kind: H                                     Number of atoms:       2
+
+     Orbital Basis Set                                       aug-DZVP-MOLOPT-GTH
+
+       Number of orbital shell sets:                                           1
+       Number of orbital shells:                                               5
+       Number of primitive Cartesian functions:                                6
+       Number of Cartesian basis functions:                                    9
+       Number of spherical basis functions:                                    9
+       Norm type:                                                              2
+
+       Normalised Cartesian orbitals:
+
+                        Set   Shell   Orbital            Exponent    Coefficient
+
+                          1       1    2s                0.040000       0.000000
+                                                         0.082193      -0.014019
+                                                         0.239116      -0.107525
+                                                         0.791502      -0.258419
+                                                         2.680223      -0.177618
+                                                        10.068468      -0.133023
+
+                          1       2    3s                0.040000       0.000000
+                                                         0.082193       0.082660
+                                                         0.239116       0.017430
+                                                         0.791502      -0.999069
+                                                         2.680223       1.819821
+                                                        10.068468       0.344673
+
+                          1       3    4s                0.040000      -0.163296
+                                                         0.082193       0.271255
+                                                         0.239116      -0.183085
+                                                         0.791502      -0.064934
+                                                         2.680223       0.000000
+                                                        10.068468       0.000000
+
+                          1       4    3px               0.040000       0.000000
+                                                         0.082193       0.033440
+                                                         0.239116       0.080105
+                                                         0.791502       0.311480
+                                                         2.680223       0.367157
+                                                        10.068468       0.155326
+                          1       4    3py               0.040000       0.000000
+                                                         0.082193       0.033440
+                                                         0.239116       0.080105
+                                                         0.791502       0.311480
+                                                         2.680223       0.367157
+                                                        10.068468       0.155326
+                          1       4    3pz               0.040000       0.000000
+                                                         0.082193       0.033440
+                                                         0.239116       0.080105
+                                                         0.791502       0.311480
+                                                         2.680223       0.367157
+                                                        10.068468       0.155326
+
+                          1       5    4px               0.040000       0.023154
+                                                         0.082193      -0.079949
+                                                         0.239116      -0.084991
+                                                         0.791502      -0.021199
+                                                         2.680223       0.000000
+                                                        10.068468       0.000000
+                          1       5    4py               0.040000       0.023154
+                                                         0.082193      -0.079949
+                                                         0.239116      -0.084991
+                                                         0.791502      -0.021199
+                                                         2.680223       0.000000
+                                                        10.068468       0.000000
+                          1       5    4pz               0.040000       0.023154
+                                                         0.082193      -0.079949
+                                                         0.239116      -0.084991
+                                                         0.791502      -0.021199
+                                                         2.680223       0.000000
+                                                        10.068468       0.000000
+
+     RI Auxiliary Basis Set             RI_aug-DZVP-MOLOPT-GTH_N_RI_022_s_p_d_f_
+
+       Number of orbital shell sets:                                          10
+       Number of orbital shells:                                              10
+       Number of primitive Cartesian functions:                               10
+       Number of Cartesian basis functions:                                   23
+       Number of spherical basis functions:                                   22
+       Norm type:                                                              2
+
+       Normalised Cartesian orbitals:
+
+                        Set   Shell   Orbital            Exponent    Coefficient
+
+                          1       1    1s                0.134982       0.158715
+
+                          2       1    2s                0.472805       0.406370
+
+                          3       1    3s                1.268966       0.852114
+
+                          4       1    4s                3.945513       1.995206
+
+                          5       1    5s               16.600648       5.861434
+
+                          6       1    6px               0.113571       0.093978
+                          6       1    6py               0.113571       0.093978
+                          6       1    6pz               0.113571       0.093978
+
+                          7       1    7px               0.412747       0.471568
+                          7       1    7py               0.412747       0.471568
+                          7       1    7pz               0.412747       0.471568
+
+                          8       1    8px               1.475136       2.317290
+                          8       1    8py               1.475136       2.317290
+                          8       1    8pz               1.475136       2.317290
+
+                          9       1    9px               7.073047      16.441759
+                          9       1    9py               7.073047      16.441759
+                          9       1    9pz               7.073047      16.441759
+
+                         10       1   10dx2              1.667546       4.027592
+                         10       1   10dxy              1.667546       6.975993
+                         10       1   10dxz              1.667546       6.975993
+                         10       1   10dy2              1.667546       4.027592
+                         10       1   10dyz              1.667546       6.975993
+                         10       1   10dz2              1.667546       4.027592
+
+       Atomic covalent radius [Angstrom]:                                  0.320
+
+       Atomic van der Waals radius [Angstrom]:                             1.090
+
+     GTH Potential information for                                       GTH-PBE
+
+       Description:                       Goedecker-Teter-Hutter pseudopotential
+                                           Goedecker et al., PRB 54, 1703 (1996)
+                                          Hartwigsen et al., PRB 58, 3641 (1998)
+                                                      Krack, TCA 114, 145 (2005)
+
+       Gaussian exponent of the core charge distribution:              12.500000
+       Electronic configuration (s p d ...):                                   1
+
+       Parameters of the local part of the GTH pseudopotential:
+
+                          rloc        C1          C2          C3          C4
+                        0.200000   -4.178900    0.724463
+
+
+ MOLECULE KIND INFORMATION
+
+
+ All atoms are their own molecule, skipping detailed information
+
+
+ TOTAL NUMBERS AND MAXIMUM NUMBERS
+
+  Total number of            - Atomic kinds:                                   1
+                             - Atoms:                                          2
+                             - Shell sets:                                     2
+                             - Shells:                                        10
+                             - Primitive Cartesian functions:                 12
+                             - Cartesian basis functions:                     18
+                             - Spherical basis functions:                     18
+
+  Maximum angular momentum of- Orbital basis functions:                        1
+                             - Local part of the GTH pseudopotential:          2
+
+
+ MODULE QUICKSTEP: ATOMIC COORDINATES IN ANGSTROM
+
+   Atom Kind Element         X             Y             Z       Z(eff)     Mass
+      1    1 H     1      5.000000      5.000000      4.630000   1.0000   1.0079
+      2    1 H     1      5.000000      5.000000      5.370000   1.0000   1.0079
+
+
+
+ SCF PARAMETERS         Density guess:                                   RESTART
+                        --------------------------------------------------------
+                        max_scf:                                             200
+                        max_scf_history:                                       0
+                        max_diis:                                              4
+                        --------------------------------------------------------
+                        eps_scf:                                        1.00E-09
+                        eps_scf_history:                                0.00E+00
+                        eps_diis:                                       1.00E-01
+                        eps_eigval:                                     1.00E-05
+                        --------------------------------------------------------
+                        level_shift [a.u.]:                             0.000000
+                        added MOs                                        17    0
+                        --------------------------------------------------------
+                        Mixing method:                            BROYDEN_MIXING
+                                                charge density mixing in g-space
+                        --------------------------------------------------------
+                        No outer SCF
+
+ PW_GRID| Information for grid number                                          1
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                    16    1
+ PW_GRID| the grid is blocked:                                                NO
+ PW_GRID| Cutoff [a.u.]                                                    300.0
+ PW_GRID| spherical cutoff:                                                   NO
+ PW_GRID|   Bounds   1            -75      74                Points:         150
+ PW_GRID|   Bounds   2            -75      74                Points:         150
+ PW_GRID|   Bounds   3            -75      74                Points:         150
+ PW_GRID| Volume element (a.u.^3)  0.2000E-02     Volume (a.u.^3)      6748.3346
+ PW_GRID| Grid span                                                    FULLSPACE
+ PW_GRID|   Distribution                         Average         Max         Min
+ PW_GRID|   G-Vectors                           210937.5      211050      210900
+ PW_GRID|   G-Rays                                1406.2        1407        1406
+ PW_GRID|   Real Space Points                   210937.5      225000      202500
+
+ PW_GRID| Information for grid number                                          2
+ PW_GRID| Number of the reference grid                                         1
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                    16    1
+ PW_GRID| the grid is blocked:                                                NO
+ PW_GRID| Cutoff [a.u.]                                                    100.0
+ PW_GRID| spherical cutoff:                                                   NO
+ PW_GRID|   Bounds   1            -45      44                Points:          90
+ PW_GRID|   Bounds   2            -45      44                Points:          90
+ PW_GRID|   Bounds   3            -45      44                Points:          90
+ PW_GRID| Volume element (a.u.^3)  0.9257E-02     Volume (a.u.^3)      6748.3346
+ PW_GRID| Grid span                                                    FULLSPACE
+ PW_GRID|   Distribution                         Average         Max         Min
+ PW_GRID|   G-Vectors                            45562.5       45720       45540
+ PW_GRID|   G-Rays                                 506.2         508         506
+ PW_GRID|   Real Space Points                    45562.5       48600       40500
+
+ PW_GRID| Information for grid number                                          3
+ PW_GRID| Number of the reference grid                                         1
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                    16    1
+ PW_GRID| the grid is blocked:                                                NO
+ PW_GRID| Cutoff [a.u.]                                                     33.3
+ PW_GRID| spherical cutoff:                                                   NO
+ PW_GRID|   Bounds   1            -27      26                Points:          54
+ PW_GRID|   Bounds   2            -27      26                Points:          54
+ PW_GRID|   Bounds   3            -27      26                Points:          54
+ PW_GRID| Volume element (a.u.^3)  0.4286E-01     Volume (a.u.^3)      6748.3346
+ PW_GRID| Grid span                                                    FULLSPACE
+ PW_GRID|   Distribution                         Average         Max         Min
+ PW_GRID|   G-Vectors                             9841.5        9882        9828
+ PW_GRID|   G-Rays                                 182.2         183         182
+ PW_GRID|   Real Space Points                     9841.5       11664        8748
+
+ PW_GRID| Information for grid number                                          4
+ PW_GRID| Number of the reference grid                                         1
+ PW_GRID| Grid distributed over                                    16 processors
+ PW_GRID| Real space group dimensions                                    16    1
+ PW_GRID| the grid is blocked:                                                NO
+ PW_GRID| Cutoff [a.u.]                                                     11.1
+ PW_GRID| spherical cutoff:                                                   NO
+ PW_GRID|   Bounds   1            -15      14                Points:          30
+ PW_GRID|   Bounds   2            -15      14                Points:          30
+ PW_GRID|   Bounds   3            -15      14                Points:          30
+ PW_GRID| Volume element (a.u.^3)  0.2499         Volume (a.u.^3)      6748.3346
+ PW_GRID| Grid span                                                    FULLSPACE
+ PW_GRID|   Distribution                         Average         Max         Min
+ PW_GRID|   G-Vectors                             1687.5        1710        1680
+ PW_GRID|   G-Rays                                  56.2          57          56
+ PW_GRID|   Real Space Points                     1687.5        1800         900
+
+ POISSON| Solver                                                         WAVELET
+ POISSON| Wavelet| Scaling function                                           40
+ POISSON| Periodicity                                                       NONE
+
+ RS_GRID| Information for grid number                                          1
+ RS_GRID|   Bounds   1            -75      74                Points:         150
+ RS_GRID|   Bounds   2            -75      74                Points:         150
+ RS_GRID|   Bounds   3            -75      74                Points:         150
+ RS_GRID| Real space distribution over                                  4 groups
+ RS_GRID| Real space distribution along direction                              2
+ RS_GRID| Border size                                                         26
+ RS_GRID| Real space distribution over                                  4 groups
+ RS_GRID| Real space distribution along direction                              3
+ RS_GRID| Border size                                                         26
+ RS_GRID|   Distribution                         Average         Max         Min
+ RS_GRID|   Planes                                  89.5          90          89
+ RS_GRID|   Distribution                         Average         Max         Min
+ RS_GRID|   Planes                                  89.5          90          89
+
+ RS_GRID| Information for grid number                                          2
+ RS_GRID|   Bounds   1            -45      44                Points:          90
+ RS_GRID|   Bounds   2            -45      44                Points:          90
+ RS_GRID|   Bounds   3            -45      44                Points:          90
+ RS_GRID| Real space fully replicated
+ RS_GRID| Group size                                                           1
+
+ RS_GRID| Information for grid number                                          3
+ RS_GRID|   Bounds   1            -27      26                Points:          54
+ RS_GRID|   Bounds   2            -27      26                Points:          54
+ RS_GRID|   Bounds   3            -27      26                Points:          54
+ RS_GRID| Real space fully replicated
+ RS_GRID| Group size                                                           1
+
+ RS_GRID| Information for grid number                                          4
+ RS_GRID|   Bounds   1            -15      14                Points:          30
+ RS_GRID|   Bounds   2            -15      14                Points:          30
+ RS_GRID|   Bounds   3            -15      14                Points:          30
+ RS_GRID| Real space fully replicated
+ RS_GRID| Group size                                                           1
+ 
+ RI-RPA| using GPW style
+ 
+
+ Number of electrons:                                                          2
+ Number of occupied orbitals:                                                  1
+ Number of molecular orbitals:                                                18
+
+ Number of orbital functions:                                                 18
+ Number of independent orbital functions:                                     18
+
+ Extrapolation method: initial_guess
+
+ *** WARNING in qs_initial_guess.F:303 :: User requested to restart the    ***
+ *** wavefunction from the file named: Uracil-RESTART.wfn. This file does  ***
+ *** not exist. Please check the existence of the file or change properly  ***
+ *** the value of the keyword WFN_RESTART_FILE_NAME. Calculation continues ***
+ *** using ATOMIC GUESS.                                                   ***
+
+
+ Atomic guess: The first density matrix is obtained in terms of atomic orbitals
+               and electronic configurations assigned to each atomic kind
+
+ Guess for atomic kind: H
+
+ Electronic structure
+    Total number of core electrons                                          0.00
+    Total number of valence electrons                                       1.00
+    Total number of electrons                                               1.00
+    Multiplicity                                                   not specified
+    S      1.00
+
+
+ *******************************************************************************
+                  Iteration          Convergence                     Energy [au]
+ *******************************************************************************
+                          1        0.561388E-02                  -0.375483598877
+                          2        0.103244E-03                  -0.375544603814
+                          3        0.502714E-06                  -0.375544627315
+
+ Energy components [Hartree]           Total Energy ::           -0.375544627315
+                                        Band Energy ::           -0.078124458094
+                                     Kinetic Energy ::            0.767739494933
+                                   Potential Energy ::           -1.143284122248
+                                      Virial (-V/T) ::            1.489156321634
+                                        Core Energy ::           -0.455711211567
+                                          XC Energy ::           -0.312975686088
+                                     Coulomb Energy ::            0.393142270340
+                       Total Pseudopotential Energy ::           -1.234990455135
+                       Local Pseudopotential Energy ::           -1.234990455135
+                    Nonlocal Pseudopotential Energy ::            0.000000000000
+                                        Confinement ::            0.115397486348
+
+ Orbital energies  State     L     Occupation   Energy[a.u.]          Energy[eV]
+
+                       1     0          1.000      -0.078124           -2.125875
+
+
+ Total Electron Density at R=0:                                         0.423080
+ Re-scaling the density matrix to get the right number of electrons
+                  # Electrons              Trace(P)               Scaling factor
+                            2                 2.000                        1.000
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 NoMix/Diag. 0.40E+00    0.3     0.57552956        -0.8991967940 -8.99E-01
+     2 Broy./Diag. 0.40E+00    0.1     0.00095391        -1.1730265735 -2.74E-01
+     3 Broy./Diag. 0.40E+00    0.1     0.00204337        -1.1614730677  1.16E-02
+     4 Broy./Diag. 0.40E+00    0.1     0.00037619        -1.1618692053 -3.96E-04
+     5 Broy./Diag. 0.40E+00    0.1     0.00079440        -1.1618111663  5.80E-05
+     6 Broy./Diag. 0.40E+00    0.1     0.00012564        -1.1618126096 -1.44E-06
+     7 Broy./Diag. 0.40E+00    0.1     0.00009462        -1.1616764634  1.36E-04
+     8 Broy./Diag. 0.40E+00    0.1     0.00007486        -1.1617889445 -1.12E-04
+     9 Broy./Diag. 0.40E+00    0.1     0.00001542        -1.1617905813 -1.64E-06
+    10 Broy./Diag. 0.40E+00    0.1     0.00000356        -1.1617872030  3.38E-06
+    11 Broy./Diag. 0.40E+00    0.1     0.00000635        -1.1617825120  4.69E-06
+    12 Broy./Diag. 0.40E+00    0.1     0.00000368        -1.1617807898  1.72E-06
+    13 Broy./Diag. 0.40E+00    0.1     0.00000041        -1.1617819569 -1.17E-06
+    14 Broy./Diag. 0.40E+00    0.1     0.00000059        -1.1617817092  2.48E-07
+    15 Broy./Diag. 0.40E+00    0.1     0.00000031        -1.1617812920  4.17E-07
+    16 Broy./Diag. 0.40E+00    0.1     0.00000013        -1.1617812744  1.75E-08
+    17 Broy./Diag. 0.40E+00    0.1     0.00000028        -1.1617813773 -1.03E-07
+    18 Broy./Diag. 0.40E+00    0.1     0.00000003        -1.1617813123  6.50E-08
+    19 Broy./Diag. 0.40E+00    0.1     0.00000004        -1.1617812288  8.34E-08
+    20 Broy./Diag. 0.40E+00    0.1     2.0965E-09        -1.1617812313 -2.48E-09
+    21 Broy./Diag. 0.40E+00    0.1     4.9089E-09        -1.1617812424 -1.11E-08
+    22 Broy./Diag. 0.40E+00    0.1     0.00000001        -1.1617812281  1.43E-08
+    23 Broy./Diag. 0.40E+00    0.1     8.6390E-09        -1.1617812183  9.78E-09
+    24 Broy./Diag. 0.40E+00    0.1     1.5205E-09        -1.1617812199 -1.64E-09
+    25 Broy./Diag. 0.40E+00    0.1     2.6626E-09        -1.1617812217 -1.78E-09
+    26 Broy./Diag. 0.40E+00    0.1     6.9924E-10        -1.1617812202  1.55E-09
+
+  *** SCF run converged in    26 steps ***
+
+
+  Electronic density on regular grids:         -2.0000000000        0.0000000000
+  Core density on regular grids:                2.0000000000       -0.0000000000
+  Total charge density on r-space grids:       -0.0000000000
+  Total charge density g-space grids:          -0.0000000000
+
+  Overlap energy of the core charge distribution:               0.00000054708208
+  Self energy of the core charge distribution:                 -2.82094791773878
+  Core Hamiltonian energy:                                      1.07379168549186
+  Hartree energy:                                               1.30569956088863
+  Exchange-correlation energy:                                 -0.72032509589897
+
+  Total energy:                                                -1.16178122017518
+
+ !-----------------------------------------------------------------------------!
+                     Mulliken Population Analysis
+
+ #  Atom  Element  Kind  Atomic population                           Net charge
+       1     H        1          1.000000                              0.000000
+       2     H        1          1.000000                             -0.000000
+ # Total charge                              2.000000                  0.000000
+
+ !-----------------------------------------------------------------------------!
+
+ !-----------------------------------------------------------------------------!
+                           Hirshfeld Charges
+
+  #Atom  Element  Kind  Ref Charge     Population                    Net charge
+      1       H      1       1.000          0.942                         0.058
+      2       H      1       1.000          0.942                         0.058
+
+  Total Charge                                                            0.116
+ !-----------------------------------------------------------------------------!
+
+
+ RI-RPA section
+ --------------
+
+  Used number of processes per group:                                          1
+  Maximum allowed memory usage per MPI process:                      1024.00 MiB
+  RI_INFO| Cholesky decomposition group size:                                  1
+  RI_INFO| Number of groups for auxiliary basis functions                     16
+
+  RI_INFO| RI metric:                                                    COULOMB
+  RI_INFO| Number of auxiliary basis functions:                               44
+  GENERAL_INFO| Number of basis functions:                                    18
+  GENERAL_INFO| Number of occupied orbitals:                                   1
+  GENERAL_INFO| Number of virtual orbitals:                                   17
+  RI_INFO| Total memory for (ia|K) integrals:                           0.01 MiB
+  RI_INFO| Total memory for G0W0-(nm|K) integrals:                      0.11 MiB
+  RI_INFO| Total memory for (ij|K) integrals:                           0.00 MiB
+  RI_INFO| Total memory for (ab|K) integrals:                           0.10 MiB
+  RI_INFO| Group size for frequency integration:                              16
+  INTEG_INFO| Clenshaw-Curtius quadrature
+  INTEG_INFO| Number of integration points:                                  300
+  INTEG_INFO| Number of integration points per RPA group:                    300
+  MATRIX_INFO| Number row processes:                                           4
+  MATRIX_INFO| Number column processes:                                        4
+  MATRIX_INFO| Row block size:                                                 5
+  MATRIX_INFO| Column block size:                                              2
+  INTEG_INFO| Scaling parameter:                                         0.20000
+  INTEG_INFO| Started with Integration point   1 of 300
+  INTEG_INFO| Started with Integration point   2 of 300
+  INTEG_INFO| Started with Integration point   3 of 300
+  INTEG_INFO| Started with Integration point   4 of 300
+  INTEG_INFO| Started with Integration point   5 of 300
+  INTEG_INFO| Started with Integration point   6 of 300
+  INTEG_INFO| Started with Integration point   7 of 300
+  INTEG_INFO| Started with Integration point   8 of 300
+  INTEG_INFO| Started with Integration point   9 of 300
+  INTEG_INFO| Started with Integration point  10 of 300
+  INTEG_INFO| Started with Integration point  11 of 300
+  INTEG_INFO| Started with Integration point  12 of 300
+  INTEG_INFO| Started with Integration point  13 of 300
+  INTEG_INFO| Started with Integration point  14 of 300
+  INTEG_INFO| Started with Integration point  15 of 300
+  INTEG_INFO| Started with Integration point  16 of 300
+  INTEG_INFO| Started with Integration point  17 of 300
+  INTEG_INFO| Started with Integration point  18 of 300
+  INTEG_INFO| Started with Integration point  19 of 300
+  INTEG_INFO| Started with Integration point  20 of 300
+  INTEG_INFO| Started with Integration point  21 of 300
+  INTEG_INFO| Started with Integration point  22 of 300
+  INTEG_INFO| Started with Integration point  23 of 300
+  INTEG_INFO| Started with Integration point  24 of 300
+  INTEG_INFO| Started with Integration point  25 of 300
+  INTEG_INFO| Started with Integration point  26 of 300
+  INTEG_INFO| Started with Integration point  27 of 300
+  INTEG_INFO| Started with Integration point  28 of 300
+  INTEG_INFO| Started with Integration point  29 of 300
+  INTEG_INFO| Started with Integration point  30 of 300
+  INTEG_INFO| Started with Integration point  31 of 300
+  INTEG_INFO| Started with Integration point  32 of 300
+  INTEG_INFO| Started with Integration point  33 of 300
+  INTEG_INFO| Started with Integration point  34 of 300
+  INTEG_INFO| Started with Integration point  35 of 300
+  INTEG_INFO| Started with Integration point  36 of 300
+  INTEG_INFO| Started with Integration point  37 of 300
+  INTEG_INFO| Started with Integration point  38 of 300
+  INTEG_INFO| Started with Integration point  39 of 300
+  INTEG_INFO| Started with Integration point  40 of 300
+  INTEG_INFO| Started with Integration point  41 of 300
+  INTEG_INFO| Started with Integration point  42 of 300
+  INTEG_INFO| Started with Integration point  43 of 300
+  INTEG_INFO| Started with Integration point  44 of 300
+  INTEG_INFO| Started with Integration point  45 of 300
+  INTEG_INFO| Started with Integration point  46 of 300
+  INTEG_INFO| Started with Integration point  47 of 300
+  INTEG_INFO| Started with Integration point  48 of 300
+  INTEG_INFO| Started with Integration point  49 of 300
+  INTEG_INFO| Started with Integration point  50 of 300
+  INTEG_INFO| Started with Integration point  51 of 300
+  INTEG_INFO| Started with Integration point  52 of 300
+  INTEG_INFO| Started with Integration point  53 of 300
+  INTEG_INFO| Started with Integration point  54 of 300
+  INTEG_INFO| Started with Integration point  55 of 300
+  INTEG_INFO| Started with Integration point  56 of 300
+  INTEG_INFO| Started with Integration point  57 of 300
+  INTEG_INFO| Started with Integration point  58 of 300
+  INTEG_INFO| Started with Integration point  59 of 300
+  INTEG_INFO| Started with Integration point  60 of 300
+  INTEG_INFO| Started with Integration point  61 of 300
+  INTEG_INFO| Started with Integration point  62 of 300
+  INTEG_INFO| Started with Integration point  63 of 300
+  INTEG_INFO| Started with Integration point  64 of 300
+  INTEG_INFO| Started with Integration point  65 of 300
+  INTEG_INFO| Started with Integration point  66 of 300
+  INTEG_INFO| Started with Integration point  67 of 300
+  INTEG_INFO| Started with Integration point  68 of 300
+  INTEG_INFO| Started with Integration point  69 of 300
+  INTEG_INFO| Started with Integration point  70 of 300
+  INTEG_INFO| Started with Integration point  71 of 300
+  INTEG_INFO| Started with Integration point  72 of 300
+  INTEG_INFO| Started with Integration point  73 of 300
+  INTEG_INFO| Started with Integration point  74 of 300
+  INTEG_INFO| Started with Integration point  75 of 300
+  INTEG_INFO| Started with Integration point  76 of 300
+  INTEG_INFO| Started with Integration point  77 of 300
+  INTEG_INFO| Started with Integration point  78 of 300
+  INTEG_INFO| Started with Integration point  79 of 300
+  INTEG_INFO| Started with Integration point  80 of 300
+  INTEG_INFO| Started with Integration point  81 of 300
+  INTEG_INFO| Started with Integration point  82 of 300
+  INTEG_INFO| Started with Integration point  83 of 300
+  INTEG_INFO| Started with Integration point  84 of 300
+  INTEG_INFO| Started with Integration point  85 of 300
+  INTEG_INFO| Started with Integration point  86 of 300
+  INTEG_INFO| Started with Integration point  87 of 300
+  INTEG_INFO| Started with Integration point  88 of 300
+  INTEG_INFO| Started with Integration point  89 of 300
+  INTEG_INFO| Started with Integration point  90 of 300
+  INTEG_INFO| Started with Integration point  91 of 300
+  INTEG_INFO| Started with Integration point  92 of 300
+  INTEG_INFO| Started with Integration point  93 of 300
+  INTEG_INFO| Started with Integration point  94 of 300
+  INTEG_INFO| Started with Integration point  95 of 300
+  INTEG_INFO| Started with Integration point  96 of 300
+  INTEG_INFO| Started with Integration point  97 of 300
+  INTEG_INFO| Started with Integration point  98 of 300
+  INTEG_INFO| Started with Integration point  99 of 300
+  INTEG_INFO| Started with Integration point 100 of 300
+  INTEG_INFO| Started with Integration point 101 of 300
+  INTEG_INFO| Started with Integration point 102 of 300
+  INTEG_INFO| Started with Integration point 103 of 300
+  INTEG_INFO| Started with Integration point 104 of 300
+  INTEG_INFO| Started with Integration point 105 of 300
+  INTEG_INFO| Started with Integration point 106 of 300
+  INTEG_INFO| Started with Integration point 107 of 300
+  INTEG_INFO| Started with Integration point 108 of 300
+  INTEG_INFO| Started with Integration point 109 of 300
+  INTEG_INFO| Started with Integration point 110 of 300
+  INTEG_INFO| Started with Integration point 111 of 300
+  INTEG_INFO| Started with Integration point 112 of 300
+  INTEG_INFO| Started with Integration point 113 of 300
+  INTEG_INFO| Started with Integration point 114 of 300
+  INTEG_INFO| Started with Integration point 115 of 300
+  INTEG_INFO| Started with Integration point 116 of 300
+  INTEG_INFO| Started with Integration point 117 of 300
+  INTEG_INFO| Started with Integration point 118 of 300
+  INTEG_INFO| Started with Integration point 119 of 300
+  INTEG_INFO| Started with Integration point 120 of 300
+  INTEG_INFO| Started with Integration point 121 of 300
+  INTEG_INFO| Started with Integration point 122 of 300
+  INTEG_INFO| Started with Integration point 123 of 300
+  INTEG_INFO| Started with Integration point 124 of 300
+  INTEG_INFO| Started with Integration point 125 of 300
+  INTEG_INFO| Started with Integration point 126 of 300
+  INTEG_INFO| Started with Integration point 127 of 300
+  INTEG_INFO| Started with Integration point 128 of 300
+  INTEG_INFO| Started with Integration point 129 of 300
+  INTEG_INFO| Started with Integration point 130 of 300
+  INTEG_INFO| Started with Integration point 131 of 300
+  INTEG_INFO| Started with Integration point 132 of 300
+  INTEG_INFO| Started with Integration point 133 of 300
+  INTEG_INFO| Started with Integration point 134 of 300
+  INTEG_INFO| Started with Integration point 135 of 300
+  INTEG_INFO| Started with Integration point 136 of 300
+  INTEG_INFO| Started with Integration point 137 of 300
+  INTEG_INFO| Started with Integration point 138 of 300
+  INTEG_INFO| Started with Integration point 139 of 300
+  INTEG_INFO| Started with Integration point 140 of 300
+  INTEG_INFO| Started with Integration point 141 of 300
+  INTEG_INFO| Started with Integration point 142 of 300
+  INTEG_INFO| Started with Integration point 143 of 300
+  INTEG_INFO| Started with Integration point 144 of 300
+  INTEG_INFO| Started with Integration point 145 of 300
+  INTEG_INFO| Started with Integration point 146 of 300
+  INTEG_INFO| Started with Integration point 147 of 300
+  INTEG_INFO| Started with Integration point 148 of 300
+  INTEG_INFO| Started with Integration point 149 of 300
+  INTEG_INFO| Started with Integration point 150 of 300
+  INTEG_INFO| Started with Integration point 151 of 300
+  INTEG_INFO| Started with Integration point 152 of 300
+  INTEG_INFO| Started with Integration point 153 of 300
+  INTEG_INFO| Started with Integration point 154 of 300
+  INTEG_INFO| Started with Integration point 155 of 300
+  INTEG_INFO| Started with Integration point 156 of 300
+  INTEG_INFO| Started with Integration point 157 of 300
+  INTEG_INFO| Started with Integration point 158 of 300
+  INTEG_INFO| Started with Integration point 159 of 300
+  INTEG_INFO| Started with Integration point 160 of 300
+  INTEG_INFO| Started with Integration point 161 of 300
+  INTEG_INFO| Started with Integration point 162 of 300
+  INTEG_INFO| Started with Integration point 163 of 300
+  INTEG_INFO| Started with Integration point 164 of 300
+  INTEG_INFO| Started with Integration point 165 of 300
+  INTEG_INFO| Started with Integration point 166 of 300
+  INTEG_INFO| Started with Integration point 167 of 300
+  INTEG_INFO| Started with Integration point 168 of 300
+  INTEG_INFO| Started with Integration point 169 of 300
+  INTEG_INFO| Started with Integration point 170 of 300
+  INTEG_INFO| Started with Integration point 171 of 300
+  INTEG_INFO| Started with Integration point 172 of 300
+  INTEG_INFO| Started with Integration point 173 of 300
+  INTEG_INFO| Started with Integration point 174 of 300
+  INTEG_INFO| Started with Integration point 175 of 300
+  INTEG_INFO| Started with Integration point 176 of 300
+  INTEG_INFO| Started with Integration point 177 of 300
+  INTEG_INFO| Started with Integration point 178 of 300
+  INTEG_INFO| Started with Integration point 179 of 300
+  INTEG_INFO| Started with Integration point 180 of 300
+  INTEG_INFO| Started with Integration point 181 of 300
+  INTEG_INFO| Started with Integration point 182 of 300
+  INTEG_INFO| Started with Integration point 183 of 300
+  INTEG_INFO| Started with Integration point 184 of 300
+  INTEG_INFO| Started with Integration point 185 of 300
+  INTEG_INFO| Started with Integration point 186 of 300
+  INTEG_INFO| Started with Integration point 187 of 300
+  INTEG_INFO| Started with Integration point 188 of 300
+  INTEG_INFO| Started with Integration point 189 of 300
+  INTEG_INFO| Started with Integration point 190 of 300
+  INTEG_INFO| Started with Integration point 191 of 300
+  INTEG_INFO| Started with Integration point 192 of 300
+  INTEG_INFO| Started with Integration point 193 of 300
+  INTEG_INFO| Started with Integration point 194 of 300
+  INTEG_INFO| Started with Integration point 195 of 300
+  INTEG_INFO| Started with Integration point 196 of 300
+  INTEG_INFO| Started with Integration point 197 of 300
+  INTEG_INFO| Started with Integration point 198 of 300
+  INTEG_INFO| Started with Integration point 199 of 300
+  INTEG_INFO| Started with Integration point 200 of 300
+  INTEG_INFO| Started with Integration point 201 of 300
+  INTEG_INFO| Started with Integration point 202 of 300
+  INTEG_INFO| Started with Integration point 203 of 300
+  INTEG_INFO| Started with Integration point 204 of 300
+  INTEG_INFO| Started with Integration point 205 of 300
+  INTEG_INFO| Started with Integration point 206 of 300
+  INTEG_INFO| Started with Integration point 207 of 300
+  INTEG_INFO| Started with Integration point 208 of 300
+  INTEG_INFO| Started with Integration point 209 of 300
+  INTEG_INFO| Started with Integration point 210 of 300
+  INTEG_INFO| Started with Integration point 211 of 300
+  INTEG_INFO| Started with Integration point 212 of 300
+  INTEG_INFO| Started with Integration point 213 of 300
+  INTEG_INFO| Started with Integration point 214 of 300
+  INTEG_INFO| Started with Integration point 215 of 300
+  INTEG_INFO| Started with Integration point 216 of 300
+  INTEG_INFO| Started with Integration point 217 of 300
+  INTEG_INFO| Started with Integration point 218 of 300
+  INTEG_INFO| Started with Integration point 219 of 300
+  INTEG_INFO| Started with Integration point 220 of 300
+  INTEG_INFO| Started with Integration point 221 of 300
+  INTEG_INFO| Started with Integration point 222 of 300
+  INTEG_INFO| Started with Integration point 223 of 300
+  INTEG_INFO| Started with Integration point 224 of 300
+  INTEG_INFO| Started with Integration point 225 of 300
+  INTEG_INFO| Started with Integration point 226 of 300
+  INTEG_INFO| Started with Integration point 227 of 300
+  INTEG_INFO| Started with Integration point 228 of 300
+  INTEG_INFO| Started with Integration point 229 of 300
+  INTEG_INFO| Started with Integration point 230 of 300
+  INTEG_INFO| Started with Integration point 231 of 300
+  INTEG_INFO| Started with Integration point 232 of 300
+  INTEG_INFO| Started with Integration point 233 of 300
+  INTEG_INFO| Started with Integration point 234 of 300
+  INTEG_INFO| Started with Integration point 235 of 300
+  INTEG_INFO| Started with Integration point 236 of 300
+  INTEG_INFO| Started with Integration point 237 of 300
+  INTEG_INFO| Started with Integration point 238 of 300
+  INTEG_INFO| Started with Integration point 239 of 300
+  INTEG_INFO| Started with Integration point 240 of 300
+  INTEG_INFO| Started with Integration point 241 of 300
+  INTEG_INFO| Started with Integration point 242 of 300
+  INTEG_INFO| Started with Integration point 243 of 300
+  INTEG_INFO| Started with Integration point 244 of 300
+  INTEG_INFO| Started with Integration point 245 of 300
+  INTEG_INFO| Started with Integration point 246 of 300
+  INTEG_INFO| Started with Integration point 247 of 300
+  INTEG_INFO| Started with Integration point 248 of 300
+  INTEG_INFO| Started with Integration point 249 of 300
+  INTEG_INFO| Started with Integration point 250 of 300
+  INTEG_INFO| Started with Integration point 251 of 300
+  INTEG_INFO| Started with Integration point 252 of 300
+  INTEG_INFO| Started with Integration point 253 of 300
+  INTEG_INFO| Started with Integration point 254 of 300
+  INTEG_INFO| Started with Integration point 255 of 300
+  INTEG_INFO| Started with Integration point 256 of 300
+  INTEG_INFO| Started with Integration point 257 of 300
+  INTEG_INFO| Started with Integration point 258 of 300
+  INTEG_INFO| Started with Integration point 259 of 300
+  INTEG_INFO| Started with Integration point 260 of 300
+  INTEG_INFO| Started with Integration point 261 of 300
+  INTEG_INFO| Started with Integration point 262 of 300
+  INTEG_INFO| Started with Integration point 263 of 300
+  INTEG_INFO| Started with Integration point 264 of 300
+  INTEG_INFO| Started with Integration point 265 of 300
+  INTEG_INFO| Started with Integration point 266 of 300
+  INTEG_INFO| Started with Integration point 267 of 300
+  INTEG_INFO| Started with Integration point 268 of 300
+  INTEG_INFO| Started with Integration point 269 of 300
+  INTEG_INFO| Started with Integration point 270 of 300
+  INTEG_INFO| Started with Integration point 271 of 300
+  INTEG_INFO| Started with Integration point 272 of 300
+  INTEG_INFO| Started with Integration point 273 of 300
+  INTEG_INFO| Started with Integration point 274 of 300
+  INTEG_INFO| Started with Integration point 275 of 300
+  INTEG_INFO| Started with Integration point 276 of 300
+  INTEG_INFO| Started with Integration point 277 of 300
+  INTEG_INFO| Started with Integration point 278 of 300
+  INTEG_INFO| Started with Integration point 279 of 300
+  INTEG_INFO| Started with Integration point 280 of 300
+  INTEG_INFO| Started with Integration point 281 of 300
+  INTEG_INFO| Started with Integration point 282 of 300
+  INTEG_INFO| Started with Integration point 283 of 300
+  INTEG_INFO| Started with Integration point 284 of 300
+  INTEG_INFO| Started with Integration point 285 of 300
+  INTEG_INFO| Started with Integration point 286 of 300
+  INTEG_INFO| Started with Integration point 287 of 300
+  INTEG_INFO| Started with Integration point 288 of 300
+  INTEG_INFO| Started with Integration point 289 of 300
+  INTEG_INFO| Started with Integration point 290 of 300
+  INTEG_INFO| Started with Integration point 291 of 300
+  INTEG_INFO| Started with Integration point 292 of 300
+  INTEG_INFO| Started with Integration point 293 of 300
+  INTEG_INFO| Started with Integration point 294 of 300
+  INTEG_INFO| Started with Integration point 295 of 300
+  INTEG_INFO| Started with Integration point 296 of 300
+  INTEG_INFO| Started with Integration point 297 of 300
+  INTEG_INFO| Started with Integration point 298 of 300
+  INTEG_INFO| Started with Integration point 299 of 300
+  INTEG_INFO| Started with Integration point 300 of 300
+  PERFORMANCE| Average DGEMM flop rate (Gflops / MPI rank):                 0.00
+  
+  
+  ******************************************************************************
+  **                                                                          **
+  **                        GW QUASIPARTICLE ENERGIES                         **
+  **                                                                          **
+  ******************************************************************************
+   
+   
+  The GW quasiparticle energies are calculated according to: 
+   
+                      E_GW = E_SCF + Sigc(E_GW) + Sigx - vxc 
+   
+  Upper equation is solved self-consistently for E_GW, see Eq. (12) in J. Phys.
+  Chem. Lett. 9, 306 (2018), doi: 10.1021/acs.jpclett.7b02740
+  
+  
+  ------------
+  G0W0 results
+  ------------
+   
+  Molecular orbital   E_SCF (eV)       Sigc (eV)   Sigx-vxc (eV)       E_GW (eV)
+     1 ( occ )           -9.6737         -0.4602         -6.0621        -16.1959
+     2 ( vir )            1.5691         -0.0211          0.7110          2.2590
+     3 ( vir )            2.3200         -0.3016          4.1982          6.2166
+     4 ( vir )            5.1977         -0.2045          3.7059          8.6992
+     5 ( vir )            5.1977         -0.2045          3.7059          8.6992
+     6 ( vir )            6.6132         -0.0270          0.7093          7.2955
+     7 ( vir )            9.8320         -0.4511          3.0867         12.4675
+     8 ( vir )            9.8320         -0.4511          3.0867         12.4675
+     9 ( vir )           10.7257         -0.7761          3.3185         13.2681
+    10 ( vir )           14.7639         -0.0343          2.8364         17.5661
+    11 ( vir )           14.7639         -0.0322          2.8364         17.5682
+    12 ( vir )           15.6839         -0.1510          4.7083         20.2412
+    13 ( vir )           41.6067         -0.1825          7.3844         48.8086
+    14 ( vir )           49.9898          0.1678          9.2125         59.3700
+    15 ( vir )           65.0038         -0.1481          9.5036         74.3593
+    16 ( vir )           65.0038         -0.1927          9.5036         74.3147
+    17 ( vir )           80.1668         -0.3430          7.9178         87.7416
+    18 ( vir )          146.6130          0.6143         13.9475        161.1749
+   
+  G0W0 HOMO-LUMO gap (eV)                                                18.4549
+  
+  ------------------------------------------------------------------------------
+  
+ *******************************************************************************
+ **                                                                           **
+ **           Bethe Salpeter equation (BSE) for excitation energies           **
+ **               solved without Tamm-Dancoff approximation (TDA)             **
+ **                                                                           **
+ *******************************************************************************
+  
+ BSE| No cutoff given for occupied orbitals
+ BSE| No cutoff given for empty orbitals
+ BSE| First occupied index                                                     1
+ BSE| Last empty index (not MO index!)                                        17
+ BSE| Energy of first occupied index [eV]                                -16.196
+ BSE| Energy of last empty index [eV]                                    161.175
+ BSE| Energy difference of first occupied index to HOMO [eV]              -0.000
+ BSE| Energy difference of last empty index to LUMO [eV]                 158.916
+ BSE| Number of GW-corrected occupied MOs                                      1
+ BSE| Number of GW-corrected empty MOs                                        17
+ BSE|
+ BSE| No truncation of BSE matrices applied
+ BSE|
+
+ *** WARNING in bse_util.F:1545 :: Keyword NUM_PRINT_EXC is either ***
+ *** negative or too large. Printing all computed excitations.     ***
+
+ BSE| Total peak memory estimate from BSE [GB]                         2.153E-05
+ BSE| Peak memory estimate per MPI rank from BSE [GB]                      0.000
+ BSE|
+ BSE| Diagonalizing aux. matrix with size of A. This will take around 0.E+00 s.
+ BSE| Diagonalizing C. This will take around 0.E+00 s.
+ BSE|
+ BSE|
+ BSE| **************************************************************************
+ BSE| *      Full ("ABBA") Bethe Salpeter equation (BSE) (i.e. without TDA)    *
+ BSE| **************************************************************************
+ BSE|
+ BSE| The excitations are calculated by diagonalizing the BSE without the TDA:
+ BSE|
+ BSE|                |A B| |X^n|       |1  0| |X^n|
+ BSE|                |B A| |Y^n| = Ω^n |0 -1| |Y^n|
+ BSE|
+ BSE| i.e. in index notation:
+ BSE|
+ BSE|   sum_jb ( A_ia,jb   X_jb^n + B_ia,jb   Y_jb^n ) = Ω^n X_ia^n
+ BSE| - sum_jb ( B_ia,jb   X_jb^n + A_ia,jb   Y_jb^n ) = Ω^n Y_ia^n
+ BSE|
+ BSE|
+ BSE| i,j:       occupied molecular orbitals, i.e. state in          [   1,   1]
+ BSE| a,b:       unoccupied molecular orbitals, i.e. state in        [   2,  18]
+ BSE| n:         Excitation index
+ BSE|
+ BSE| A_ia,jb = (ε_a-ε_i) δ_ij δ_ab + α * v_ia,jb - W_ij,ab
+ BSE| B_ia,jb = α * v_ia,jb - W_ib,aj
+ BSE|
+ BSE| prelim Ref.: Eqs. (24-27),(30),(35)
+ BSE| in PRB 92,045209 (2015); http://dx.doi.org/10.1103/PhysRevB.92.045209 .
+ BSE|
+ BSE| The BSE is solved for Ω^n and X_ia^n as a hermitian problem, e.g. Eq.(42)
+ BSE| in PRB 92,045209 (2015); http://dx.doi.org/10.1103/PhysRevB.92.045209 .
+ BSE|
+ BSE| ε_...:                 GW quasiparticle energy
+ BSE| δ_...:                 Kronecker delta
+ BSE| α:                     spin-dependent factor
+ BSE| v_...:                 Electron-hole exchange interaction
+ BSE| W_... = 1/ϵ v_...:     Direct interaction screened by 
+ BSE|                        dielectric function ϵ(ω=0)
+ BSE|
+ BSE|
+ BSE| The spin-dependent factor is for the requested Singlet is α = 2.0
+ BSE|
+ BSE| Excitation energies from solving the BSE without the TDA:
+ BSE|
+ BSE|     Excitation n   Spin Config       TDA/ABBA   Excitation energy Ω^n (eV)
+ BSE|                1       Singlet         -ABBA-                      14.0195
+ BSE|                2       Singlet         -ABBA-                      14.3482
+ BSE|                3       Singlet         -ABBA-                      16.7236
+ BSE|                4       Singlet         -ABBA-                      16.7236
+ BSE|                5       Singlet         -ABBA-                      19.3551
+ BSE|                6       Singlet         -ABBA-                      20.6793
+ BSE|                7       Singlet         -ABBA-                      20.6793
+ BSE|                8       Singlet         -ABBA-                      21.3777
+ BSE|                9       Singlet         -ABBA-                      27.8087
+ BSE|               10       Singlet         -ABBA-                      27.8108
+ BSE|               11       Singlet         -ABBA-                      28.3589
+ BSE|               12       Singlet         -ABBA-                      54.5994
+ BSE|               13       Singlet         -ABBA-                      63.8958
+ BSE|               14       Singlet         -ABBA-                      77.5248
+ BSE|               15       Singlet         -ABBA-                      77.5694
+ BSE|               16       Singlet         -ABBA-                      92.0266
+ BSE|               17       Singlet         -ABBA-                     161.3578
+ BSE|
+ BSE| Single-particle transitions are built up by (de-)excitations,
+ BSE| which we denote by
+ BSE|
+ BSE|              =>        for excitations, i.e. entries of X_ia^n,
+ BSE|              <=        for deexcitations, i.e. entries of Y_ia^n.
+ BSE|
+ BSE| The following single-particle transitions have significant contributions,
+ BSE| i.e. |X_ia^n| > 0.100 or |Y_ia^n| > 0.100, respectively :
+ BSE|         -- Quick reminder: HOMO i =    1 and LUMO a =    2 --
+ BSE|
+ BSE| Excitation n           i =>/<=     a      TDA/ABBA       |X_ia^n|/|Y_ia^n|
+ BSE|
+ BSE|            1           1    =>     2        -ABBA-                  0.7066
+ BSE|
+ BSE|            2           1    =>     3        -ABBA-                  0.7117
+ BSE|
+ BSE|            3           1    =>     4        -ABBA-                  0.7057
+ BSE|
+ BSE|            4           1    =>     5        -ABBA-                  0.7057
+ BSE|
+ BSE|            5           1    =>     6        -ABBA-                  0.7066
+ BSE|
+ BSE|            6           1    =>     8        -ABBA-                  0.7070
+ BSE|
+ BSE|            7           1    =>     7        -ABBA-                  0.7070
+ BSE|
+ BSE|            8           1    =>     9        -ABBA-                  0.7064
+ BSE|
+ BSE|            9           1    =>    10        -ABBA-                  0.7049
+ BSE|
+ BSE|           10           1    =>    11        -ABBA-                  0.7049
+ BSE|
+ BSE|           11           1    =>    12        -ABBA-                  0.7077
+ BSE|
+ BSE|           12           1    =>    13        -ABBA-                  0.7070
+ BSE|
+ BSE|           13           1    =>    14        -ABBA-                  0.7071
+ BSE|
+ BSE|           14           1    =>    16        -ABBA-                  0.7070
+ BSE|
+ BSE|           15           1    =>    15        -ABBA-                  0.7070
+ BSE|
+ BSE|           16           1    =>    17        -ABBA-                  0.7071
+ BSE|
+ BSE|           17           1    =>    18        -ABBA-                  0.7071
+ BSE|
+ BSE| Transition moments d_r^n (with r∈(x,y,z), in atomic units)
+ BSE| and oscillator strength f^n of excitation level n are obtained from
+ BSE|
+ BSE|    d_r^n = sum_ia sqrt(2) < ψ_i | r | ψ_a > ( X_ia^n + Y_ia^n )
+ BSE|
+ BSE|        f^n = 2/3 * Ω^n sum_r∈(x,y,z) ( d_r^n )^2
+ BSE|
+ BSE| where we introduced
+ BSE|
+ BSE| ψ_i:   occupied molecular orbitals,
+ BSE| ψ_a:   empty molecular orbitals and
+ BSE|   r:   position operator.
+ BSE|
+ BSE| prelim Ref.: Eqs. (23), (24)
+ BSE| in J. Chem. Phys. 152, 044105 (2020); https://doi.org/10.1063/1.5123290
+ BSE|
+ BSE| Optical properties from solving the BSE without the TDA:
+ BSE|
+ BSE|  Excitation n  TDA/ABBA        d_x^n     d_y^n     d_z^n Osc. strength f^n
+ BSE|             1    -ABBA-       -0.000    -0.000    -0.000             0.000
+ BSE|             2    -ABBA-        0.000     0.000    -1.193             0.500
+ BSE|             3    -ABBA-        0.747     0.746     0.000             0.456
+ BSE|             4    -ABBA-        0.746    -0.747    -0.000             0.456
+ BSE|             5    -ABBA-        0.000     0.000     0.116             0.006
+ BSE|             6    -ABBA-        0.000    -0.000     0.000             0.000
+ BSE|             7    -ABBA-        0.000     0.000     0.000             0.000
+ BSE|             8    -ABBA-        0.000     0.000     0.000             0.000
+ BSE|             9    -ABBA-        0.260     0.260    -0.000             0.092
+ BSE|            10    -ABBA-       -0.260     0.260     0.000             0.092
+ BSE|            11    -ABBA-       -0.000    -0.000    -0.172             0.021
+ BSE|            12    -ABBA-       -0.000    -0.000    -0.050             0.003
+ BSE|            13    -ABBA-        0.000     0.000    -0.000             0.000
+ BSE|            14    -ABBA-        0.000    -0.000     0.000             0.000
+ BSE|            15    -ABBA-       -0.000    -0.000     0.000             0.000
+ BSE|            16    -ABBA-       -0.000    -0.000    -0.000             0.000
+ BSE|            17    -ABBA-       -0.000    -0.000    -0.023             0.002
+ BSE|
+ BSE| Check for Thomas-Reiche-Kuhn sum rule
+ BSE|
+ BSE|                             N_e = Σ_n f^n
+ BSE|
+ BSE| Number of electrons N_e:                                                 2
+ BSE| Sum over oscillator strengths Σ_n f^n :                              1.629
+ BSE|
+ BSE|
+ BSE| Printed optical absorption spectrum to local file BSE-ABBA-eta=0.130.spectrum             
+ BSE| as well as photoabsorption cross section to BSE-ABBA-eta=0.130.crosssection         
+ BSE| using the Eq. (7.51) from C. Ullrichs Book on TDDFT:
+ BSE|
+ BSE|    Im{α_{avg}(ω)} = -Im{\sum_{n=1}^{N_exc} \frac{f_n}{(ω+iη)² - (Ω^n)�
+ BSE|
+ BSE| or for the full polarizability tensor:
+ BSE|    α_{µ µ'}(ω) =  -\sum_n [2 Ω^n d_µ^n d_µ'^n] / [(ω+iη)²- (Ω^n)²]
+ BSE|
+ BSE| as well as Eq. (7.48):
+ BSE|    σ_{µ µ'}(ω) = 4πω Im{α_{µ µ'}(ω)} / c
+ BSE|
+ BSE| with transition moments d_µ^n, oscillator strengths f_n,
+ BSE| excitation energies Ω^n and the speed of light c.
+ BSE|
+ BSE| Please note that we adopt an additional minus sign for both quantities,
+ BSE| due to the convention for charge vs particle density as done in MolGW:
+ BSE| https://doi.org/10.1016/j.cpc.2016.06.019.
+ BSE|
+ BSE|
+ BSE|
+ BSE| The BSE was successfully calculated. Have a nice day!
+
+  Total RI-RPA Time=                                                    0.623891
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy [hartree]             -1.161781220175179
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBCSR STATISTICS                             -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ COUNTER                                    TOTAL       BLAS       SMM       ACC
+ flops     1 x     1 x     9                 1440     100.0%      0.0%      0.0%     
+ flops     9 x     9 x     9                23328     100.0%      0.0%      0.0%     
+ flops     1 x    17 x     9                24480     100.0%      0.0%      0.0%     
+ flops     9 x     1 x     9                57024     100.0%      0.0%      0.0%     
+ flops     9 x     9 x    18               227448     100.0%      0.0%      0.0%     
+ flops    17 x    17 x     9               457776     100.0%      0.0%      0.0%     
+ flops     9 x    17 x     9               484704     100.0%      0.0%      0.0%     
+ flops    18 x    18 x     9               513216     100.0%      0.0%      0.0%     
+ flops     9 x    18 x     9               548208     100.0%      0.0%      0.0%     
+ flops inhomo. stacks                           0       0.0%      0.0%      0.0%
+ flops total                         2.337624E+06     100.0%      0.0%      0.0%
+ flops max/rank                    239.220000E+03     100.0%      0.0%      0.0%
+ matmuls inhomo. stacks                         0       0.0%      0.0%      0.0%
+ matmuls total                               1146     100.0%      0.0%      0.0%
+ number of processed stacks                   626     100.0%      0.0%      0.0%
+ average stack size                                     1.8       0.0       0.0
+ marketing flops                     2.129616E+06
+ -------------------------------------------------------------------------------
+ # multiplications                             55
+ max memory usage/rank             773.230592E+06
+ # max total images/rank                        1
+ # max 3D layers                                1
+ # MPI messages exchanged                    2976
+ MPI messages size (bytes):
+  total size                       482.112000E+03
+  min size                           0.000000E+00
+  max size                           1.296000E+03
+  average size                     162.000000E+00
+ MPI breakdown and total messages size (bytes):
+             size <=      128                2562                        0
+       128 < size <=     8192                 414                   482112
+      8192 < size <=    32768                   0                        0
+     32768 < size <=   131072                   0                        0
+    131072 < size <=  4194304                   0                        0
+   4194304 < size <= 16777216                   0                        0
+  16777216 < size                               0                        0
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                      DBCSR MESSAGE PASSING PERFORMANCE                      -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Bcast               10                     12.
+ MP_Allreduce          333                     10.
+ MP_Alltoall          1083                   1162.
+ MP_ISend              592                    199.
+ MP_IRecv              592                     70.
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                DBM STATISTICS                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+    M  x    N  x    K                                          COUNT     PERCENT
+    ?  x    ?  x    ?                                          20480      71.43%
+   ??  x    ?  x    ?                                           8192      28.57%
+ -------------------------------------------------------------------------------
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                GRID STATISTICS                              -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ LP    KERNEL             BACKEND                              COUNT     PERCENT
+ 2     collocate ortho    CPU                                   2916      49.19%
+ 2     integrate ortho    CPU                                   2916      49.19%
+ 0     collocate general  CPU                                     64       1.08%
+ 0     integrate general  CPU                                     32       0.54%
+ -------------------------------------------------------------------------------
+
+ MEMORY| Estimated peak process memory [MiB]                                 738
+
+ -------------------------------------------------------------------------------
+ ----                             MULTIGRID INFO                            ----
+ -------------------------------------------------------------------------------
+ count for grid        1:          22954          cutoff [a.u.]          300.00
+ count for grid        2:          11733          cutoff [a.u.]          100.00
+ count for grid        3:          11669          cutoff [a.u.]           33.33
+ count for grid        4:          13912          cutoff [a.u.]           11.11
+ total gridlevel count  :          60268
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                         MESSAGE PASSING PERFORMANCE                         -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+
+ ROUTINE             CALLS      AVE VOLUME [Bytes]
+ MP_Group              144
+ MP_Bcast              182                2105639.
+ MP_Allreduce         2746                    266.
+ MP_Sync               986
+ MP_Alltoall           746                7675930.
+ MP_SendRecv          1245                 161519.
+ MP_ISendRecv         1215                 165504.
+ MP_Wait              2644
+ MP_comm_split          77
+ MP_ISend             1323                 416456.
+ MP_IRecv             1386                 397491.
+ -------------------------------------------------------------------------------
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                           R E F E R E N C E S                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ 
+ CP2K version 2025.1 (Development Version), the CP2K developers group (2025).
+ CP2K is freely available from https://www.cp2k.org/ .
+ 
+ T. D. Kuehne, M. Iannuzzi, M. Del Ben, V. V. Rybkin, P. Seewald, F. Stein, T. 
+ Laino, R. Z. Khaliullin, O. Schuett, F. Schiffmann, D. Golze, J. Wilhelm, S. 
+ Chulkov, M. H. Bani-Hashemian, V. Weber, U. Borstnik, M. Taillefumier, A. S. 
+ Jakobovits, A. Lazzaro, H. Pabst, T. Mueller, R. Schade, M. Guidon, S. 
+ Andermatt, N. Holmberg, G. K. Schenter, A. Hehn, A. Bussy, F. Belleflamme, G. 
+ Tabacchi, A. Gloess, M. Lass, I. Bethune, C. J. Mundy, C. Plessl, M. Watkins, 
+ J. VandeVondele, M. Krack, J. Hutter.
+ J. Chem. Phys. 152, 194103 (2020).
+ CP2K: An electronic structure and molecular dynamics software package - 
+ Quickstep: Efficient and accurate electronic structure calculations.
+ https://doi.org/10.1063/5.0007045
+
+ J. Wilhelm, D. Golze, L. Talirz, J. Hutter, C. A. Pignedoli.
+ J. Phys. Chem. Lett. 9, 306-312 (2018).
+ Toward GW calculations on thousands of atoms.
+ https://doi.org/10.1021/acs.jpclett.7b02740
+
+ J. Wilhelm, J. Hutter.
+ Phys. Rev. B 95, 235123 (2017).
+ Periodic GW calculations in the Gaussian and plane-waves scheme.
+ https://doi.org/10.1103/PhysRevB.95.235123
+
+ O. Schuett, P. Messmer, J. Hutter, J. VandeVondele.
+ Electronic Structure Calculations on Graphics Processing Units, 173-190 (2016).
+ GPU-Accelerated Sparse Matrix-Matrix Multiplication for Linear Scaling Density 
+ Functional Theory.
+ https://doi.org/10.1002/9781118670712.ch8
+
+ J. Wilhelm, M. Del Ben, J. Hutter.
+ J. Chem. Theory Comput. 12, 3623-3635 (2016).
+ GW in the Gaussian and plane waves scheme with application to linear acenes.
+ https://doi.org/10.1021/acs.jctc.6b00380
+
+ M. Del Ben, O. Schuett, T. Wentz, P. Messmer, J. Hutter, J. VandeVondele.
+ Comput. Phys. Commun. 187, 120-129 (2015).
+ Enabling simulation at the fifth rung of DFT: Large scale RPA calculations with 
+ excellent time to solution.
+ https://doi.org/10.1016/j.cpc.2014.10.021
+
+ J. Hutter, M. Iannuzzi, F. Schiffmann, J. VandeVondele.
+ WIREs Comput Mol Sci. 4, 15-25 (2014).
+ CP2K: atomistic simulations of condensed matter systems.
+ https://doi.org/10.1002/wcms.1159
+
+ U. Borstnik, J. VandeVondele, V. Weber, J. Hutter.
+ Parallel Comput. 40, 47-58 (2014).
+ Sparse matrix multiplication: The distributed block-compressed sparse row 
+ library.
+ https://doi.org/10.1016/j.parco.2014.03.012
+
+ A. Marek, V. Blum, R. Johanni, V. Havu, B. Lang, T. Auckenthaler, A. Heinecke, 
+ H. Bungartz, H. Lederer.
+ J. Phys. Condens. Matter 26, 213201 (2014).
+ The ELPA library: scalable parallel eigenvalue solutions for electronic 
+ structure theory and computational science.
+ https://doi.org/10.1088/0953-8984/26/21/213201
+
+ M. Del Ben, J. Hutter, J. VandeVondele.
+ J. Chem. Theory Comput. 9, 2654-2671 (2013).
+ Electron Correlation in the Condensed Phase from a Resolution of Identity 
+ Approach Based on the Gaussian and Plane Waves Scheme.
+ https://doi.org/10.1021/ct4002202
+
+ M. Del Ben, J. Hutter, J. VandeVondele.
+ J. Chem. Theory Comput. 8, 4177-4188 (2012).
+ Second-Order Moller-Plesset Perturbation Theory in the Condensed Phase: An 
+ Efficient and Massively Parallel Gaussian and Plane Waves Approach.
+ https://doi.org/10.1021/ct300531w
+
+ L. Genovese, T. Deutsch, S. Goedecker.
+ J. Chem. Phys. 127, 054704 (2007).
+ Efficient and accurate three-dimensional Poisson solver for surface problems.
+ https://doi.org/10.1063/1.2754685
+
+ J. VandeVondele, J. Hutter.
+ J. Chem. Phys. 127, 114105 (2007).
+ Gaussian basis sets for accurate calculations on molecular systems in gas and 
+ condensed phases.
+ https://doi.org/10.1063/1.2770708
+
+ L. Genovese, T. Deutsch, A. Neelov, S. Goedecker, G. Beylkin.
+ J. Chem. Phys. 125, 074105 (2006).
+ Efficient solution of Poisson's equation with free boundary conditions.
+ https://doi.org/10.1063/1.2335442
+
+ J. VandeVondele, M. Krack, F. Mohamed, M. Parrinello, T. Chassaing, J. Hutter.
+ Comput. Phys. Commun. 167, 103-128 (2005).
+ QUICKSTEP: Fast and accurate density functional calculations using a mixed 
+ Gaussian and plane waves approach.
+ https://doi.org/10.1016/j.cpc.2004.12.014
+
+ M. Krack.
+ Theor. Chem. Acc. 114, 145-152 (2005).
+ Pseudopotentials for H to Kr optimized for gradient-corrected 
+ exchange-correlation functionals.
+ https://doi.org/10.1007/s00214-005-0655-y
+
+ M. Frigo, S. G. Johnson.
+ Proc. IEEE 93, 216-231 (2005).
+ The design and implementation of FFTW3.
+ https://doi.org/10.1109/JPROC.2004.840301
+
+ C. Hartwigsen, S. Goedecker, J. Hutter.
+ Phys. Rev. B 58, 3641-3662 (1998).
+ Relativistic separable dual-space Gaussian pseudopotentials from H to Rn.
+ https://doi.org/10.1103/PhysRevB.58.3641
+
+ G. Lippert, J. Hutter, M. Parrinello.
+ Mol. Phys. 92, 477-487 (1997).
+ A hybrid Gaussian and plane wave density functional scheme.
+ https://doi.org/10.1080/002689797170220
+
+ S. Goedecker, M. Teter, J. Hutter.
+ Phys. Rev. B 54, 1703-1710 (1996).
+ Separable dual-space Gaussian pseudopotentials.
+ https://doi.org/10.1103/PhysRevB.54.1703
+
+ J. P. Perdew, K. Burke, M. Ernzerhof.
+ Phys. Rev. Lett. 77, 3865-3868 (1996).
+ Generalized gradient approximation made simple.
+ https://doi.org/10.1103/PhysRevLett.77.3865
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                T I M I N G                                  -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+                                MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+ CP2K                                 1  1.0    0.151    0.164    5.907    5.907
+ qs_energies                          1  2.0    0.048    0.048    5.156    5.156
+ scf_env_do_scf                       1  3.0    0.009    0.009    3.973    3.989
+ scf_env_do_scf_inner_loop           26  4.0    0.006    0.007    3.965    3.981
+ qs_ks_build_kohn_sham_matrix        27  6.9    0.009    0.009    2.406    2.409
+ qs_ks_update_qs_env                 26  5.0    0.000    0.000    2.354    2.357
+ rebuild_ks_matrix                   26  6.0    0.000    0.000    2.354    2.356
+ fft_wrap_pw1pw2                    532  9.9    0.004    0.005    1.241    1.264
+ qs_rho_update_rho_low               27  5.0    0.000    0.000    1.208    1.209
+ calculate_rho_elec                  27  6.0    0.022    0.025    1.207    1.209
+ fft_wrap_pw1pw2_300                370 11.1    0.052    0.055    1.161    1.192
+ fft3d_ps                           532 11.9    0.304    0.318    1.017    1.042
+ pw_poisson_solve                    27  7.9    0.017    0.019    1.007    1.015
+ qs_vxc_create                       27  7.9    0.016    0.016    0.890    0.904
+ xc_vxc_pw_create                    26  9.0    0.025    0.027    0.874    0.888
+ mp2_main                             1  3.0    0.021    0.021    0.724    0.725
+ grid_collocate_task_list            27  7.0    0.664    0.690    0.664    0.690
+ mp_alltoall_z22v                   532 13.9    0.593    0.623    0.593    0.623
+ mp2_gpw_main                         1  4.0    0.007    0.008    0.620    0.620
+ ps_wavelet_solve                    27  8.9    0.400    0.448    0.536    0.549
+ xc_pw_derive                       156 11.0    0.000    0.001    0.506    0.534
+ density_rs2pw                       27  7.0    0.001    0.001    0.499    0.532
+ xc_rho_set_and_dset_create          26 10.0    0.037    0.038    0.495    0.527
+ rpa_ri_compute_en                    1  5.0    0.000    0.000    0.466    0.466
+ rpa_num_int                          1  6.0    0.002    0.002    0.463    0.464
+ x_to_yz                            291 13.1    0.055    0.058    0.375    0.396
+ sum_up_and_integrate                27  7.9    0.007    0.007    0.392    0.394
+ integrate_v_rspace                  27  8.9    0.000    0.001    0.382    0.384
+ potential_pw2rs                     27  9.9    0.002    0.002    0.374    0.375
+ mp_alltoall_d54                     27  9.9    0.081    0.373    0.081    0.373
+ xc_pw_divergence                    26 10.0    0.000    0.000    0.339    0.366
+ yz_to_x                            241 12.7    0.058    0.064    0.331    0.349
+ gspace_mixing                       25  5.0    0.020    0.022    0.314    0.314
+ qs_init_subsys                       1  2.0    0.197    0.198    0.309    0.309
+ transfer_rs2pw                     110  8.0    0.002    0.002    0.259    0.291
+ transfer_pw2rs                     109 10.9    0.000    0.000    0.262    0.263
+ qs_energies_init_hamiltonians        1  3.0    0.035    0.035    0.218    0.218
+ xc_functional_eval                  26 11.0    0.000    0.000    0.196    0.218
+ pbe_lda_eval                        26 12.0    0.196    0.218    0.196    0.218
+ broyden_mixing                      25  6.0    0.193    0.196    0.198    0.200
+ mp_waitany                        1140 11.3    0.169    0.197    0.169    0.197
+ transfer_rs2pw_300                  29  8.9    0.058    0.064    0.161    0.191
+ create_qs_kind_set                   1  2.0    0.001    0.001    0.190    0.190
+ read_qs_kind                         1  3.0    0.078    0.139    0.189    0.189
+ start_bse_calculation                1  7.0    0.008    0.008    0.178    0.178
+ diagonalize_C                        1  8.0    0.000    0.000    0.168    0.168
+ postprocess_bse                      1  9.0    0.000    0.000    0.167    0.167
+ compute_GW_self_energy             300  7.0    0.001    0.001    0.116    0.164
+ init_scf_run                         1  3.0    0.023    0.023    0.164    0.164
+ print_optical_properties             1 10.0    0.000    0.000    0.158    0.158
+ compute_absorption_spectrum          1 11.0    0.158    0.158    0.158    0.158
+ transfer_pw2rs_300                  28 11.8    0.037    0.040    0.142    0.149
+ compute_GW_self_energy_deep        300  8.0    0.078    0.122    0.090    0.139
+ mp2_ri_gpw_compute_in                1  5.0    0.001    0.001    0.137    0.137
+ scf_env_initial_rho_setup            1  4.0    0.004    0.004    0.124    0.124
+ pw_poisson_rebuild                  27  8.9    0.000    0.000    0.118    0.120
+ ps_wavelet_create                    1 10.0    0.000    0.000    0.118    0.120
+ RS_z_slice_distribution              1 11.0    0.110    0.112    0.118    0.120
+ -------------------------------------------------------------------------------
+
+ The number of warnings for this run is : 2
+ 
+ -------------------------------------------------------------------------------
+  **** **** ******  **  PROGRAM ENDED AT                 2025-04-19 14:36:39.612
+ ***** ** ***  *** **   PROGRAM RAN ON                                  n2cn0171
+ **    ****   ******    PROGRAM RAN BY                                  eprop2d1
+ ***** **    ** ** **   PROGRAM PROCESS ID                                289529
+  **** **  *******  **  PROGRAM STOPPED IN /scratch/hpc-prf-metdyn/eprop2d1_Jan/
+                                           45_excited_state_forces/BSEGradients/
+                                           example_calculations/01_H2/init_singl
+                                           e_point_BSE
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaUnregisterFatBinary', library failed to load
