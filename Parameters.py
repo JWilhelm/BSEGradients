@@ -10,6 +10,8 @@ class INPUT_PARAMETERS:
 
    excited_state_to_optimize                = 1
 
+   atom_displacement_in_Bohr                = 0.01
+
    
 class BSE_OUTPUT:
 
@@ -19,10 +21,12 @@ class BSE_OUTPUT:
                 ['C', (0.0, 0.0, 0.0)],
            ]
 
-   E_GS = -1.0
-   E_ES = -1.0
-
+   E_GS  = -1.0
+   E_ES  = -1.0
+   E_tot = -1.0
 
 class CONSTANTS:
 
    eV = 27.211
+
+

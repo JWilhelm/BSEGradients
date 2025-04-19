@@ -1,7 +1,7 @@
 from Parameters import BSE_OUTPUT, CONSTANTS
 import os
 
-def read_BSE_initial_single_point_calc(input_parameters):
+def read_BSE_single_point_calc(input_parameters):
 
    BSE_output_1 = BSE_OUTPUT()
 
@@ -65,9 +65,9 @@ def read_BSE_initial_single_point_calc(input_parameters):
    print(f"\nExcited state energy: {E_ES:.8f} Hartree ({E_ES*CONSTANTS.eV:.4f} eV)")
    print(f"\n")
 
-
    BSE_output_1.struc  = struc
-   BSE_output_1.E_GS = E_GS
-   BSE_output_1.E_ES = E_ES
+   BSE_output_1.E_GS   = E_GS
+   BSE_output_1.E_ES   = E_ES
+   BSE_output_1.E_tot  = E_GS + E_ES
 
    return BSE_output_1
