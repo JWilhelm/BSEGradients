@@ -5,4 +5,4 @@ def run_excited_state_geoopt(input_parameters):
 
   print("Input | Excited_state_to_optimize :", input_parameters.excited_state_to_optimize)
 
-  BSE_init = read_BSE_initial_single_point_calc(input_parameters)
+  BSE_output_1 = read_BSE_initial_single_point_calc(input_parameters)

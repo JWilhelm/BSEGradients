@@ -1,23 +1,22 @@
 import numpy as np
 
-class input_parameters:
+class INPUT_PARAMETERS:
 
    directory_BSE_geoopt                     = "./geoopt_BSE"
 
    directory_BSE_initial_single_point_calc  = "./init_single_point_BSE"
 
    CP2K_output_file_name                    = "cp2k.out"
-   CP2K_output_file_name_initial_BSE        = ""
 
    excited_state_to_optimize                = 1
 
    
-class BSE_init_parameters:
+class BSE_OUTPUT:
 
    struc = [
-                ['O', (0.0, 0.0, 0.0)],
-                ['H', (0.0, -0.757, 0.587)],
-                ['H', (0.0,  0.757, 0.587)],
+                ['A', (0.0, 0.0, 0.0)],
+                ['B', (0.0, 0.0, 0.0)],
+                ['C', (0.0, 0.0, 0.0)],
            ]
 
    E_GS = -1.0
