@@ -2,7 +2,7 @@ import numpy as np
 import os
 from scipy.optimize import minimize
 from BSE_calc_read  import  read_BSE_single_point_calc
-from BSE_calc_start import start_BSE_single_point_calc
+from BSE_calc_start import start_BSE_single_point_calc, calcdirname
 from Parameters import CONTROL_PARAMETERS
 
 def run_excited_state_geoopt(input_parameters):
@@ -10,7 +10,8 @@ def run_excited_state_geoopt(input_parameters):
   print("Input | Excited_state_to_optimize :", input_parameters.excited_state_to_optimize)
 
   # first BSE output: initial BSE calculation
-  BSE_output_init = read_BSE_single_point_calc(input_parameters)
+  BSE_output_init = read_BSE_single_point_calc(input_parameters, 
+                                 input_parameters.directory_BSE_initial_single_point_calc)
 
   print("test =", BSE_output_init.E_ES*27.211)
 
@@ -41,6 +42,7 @@ def energy_function(coords_array, input_parameters, control_parameters):
 def gradient_function(coords_array, input_parameters, control_parameters):
 
     control_parameters.BSE_gradient_index += 1
+    control_parameters.BSE_single_point_index = 0
 
     n_atoms = len(coords_array) // 3
     grad = np.zeros_like(coords_array)
@@ -63,7 +65,21 @@ def gradient_function(coords_array, input_parameters, control_parameters):
 #
 #        grad[i] = (E_plus - E_minus) / (2 * delta)
 
-        grad[i] = 0.1
+#        grad[i] = 0.1
+
+    control_parameters.BSE_single_point_index = 0
+
+    for i in range(len(coords_array)):
+
+        control_parameters.BSE_single_point_index += 1
+        calcdir = calcdirname(control_parameters)
+        BSE_output_1 = read_BSE_single_point_calc(input_parameters, calcdir)
+
+        control_parameters.BSE_single_point_index += 1
+        calcdir = calcdirname(control_parameters)
+        BSE_output_2 = read_BSE_single_point_calc(input_parameters, calcdir)
+
+        grad[i] = (BSE_output_2.E_tot - BSE_output_1.E_tot) / (2 * delta)
 
     return grad
 

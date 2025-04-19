@@ -600,8 +600,6 @@ implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary
    Atom Kind Element         X             Y             Z       Z(eff)     Mass
       1    1 H     1      5.000000      5.000000      4.630000   1.0000   1.0079
       2    1 H     1      5.000000      5.000000      5.370000   1.0000   1.0079
-      3    2 O     8      5.000000      6.000000      5.370000   8.0000   8.0079
-
 
 
  SCF PARAMETERS         Density guess:                                   RESTART

@@ -1,12 +1,11 @@
 from Parameters import BSE_OUTPUT, CONSTANTS
 import os
 
-def read_BSE_single_point_calc(input_parameters):
+def read_BSE_single_point_calc(input_parameters, calcdir):
 
    BSE_output_1 = BSE_OUTPUT()
 
-   cp2k_out = os.path.join(input_parameters.directory_BSE_initial_single_point_calc, \
-                           input_parameters.CP2K_output_file_name)
+   cp2k_out = os.path.join(calcdir, input_parameters.CP2K_output_file_name)
 
    if not os.path.isfile(cp2k_out):
        raise FileNotFoundError(f"File '{cp2k_out}' does not exist.")

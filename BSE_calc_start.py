@@ -6,8 +6,8 @@ def start_BSE_single_point_calc(input_parameters, control_parameters, coords_arr
 
    control_parameters.BSE_single_point_index += 1
 
-   calcdir = f"Grad_{control_parameters.BSE_gradient_index:03d}_single_point_{control_parameters.BSE_single_point_index:06d}"
-
+   calcdir = calcdirname(control_parameters)
+ 
    calcdirpath = os.path.join(input_parameters.directory_BSE_geoopt, calcdir)
 
    shutil.copytree(input_parameters.directory_BSE_initial_single_point_calc, calcdirpath)
@@ -58,3 +58,9 @@ def write_new_coords_to_input(input_parameters, coords_array):
    # overwrite the input file
    with open(input_parameters.BSE_input_file_name, "w") as f:
        f.writelines(new_lines)
+
+
+def calcdirname(control_parameters):
+   calcdir = f"Grad_{control_parameters.BSE_gradient_index:03d}_single_point_{control_parameters.BSE_single_point_index:06d}"
+
+   return calcdir
