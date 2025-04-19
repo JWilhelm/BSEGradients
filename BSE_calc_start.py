@@ -17,4 +17,40 @@ def start_BSE_single_point_calc(input_parameters, control_parameters, coords_arr
            and os.path.isfile(filename):
            os.remove(filename)
 
+   write_new_coords_to_input(input_parameters, coords_array)
+
    os.chdir("../..")
+
+
+
+def write_new_coords_to_input(input_parameters, coords_array):
+
+   with open(input_parameters.BSE_input_file_name, 'r') as f:
+       lines = f.readlines()
+   
+   new_lines = []
+   inside_coord = False
+   atom_index = 0
+   
+   for line in lines:
+       if "&COORD" in line:
+           inside_coord = True
+           new_lines.append(line)
+           continue
+       if "&END COORD" in line:
+           inside_coord = False
+           new_lines.append(line)
+           continue
+   
+       if inside_coord:
+           x = coords_array[atom_index * 3 + 0]   + 10000000000000000
+           y = coords_array[atom_index * 3 + 1]
+           z = coords_array[atom_index * 3 + 2]
+           new_lines.append(f"  H  {x:.6f}  {y:.6f}  {z:.6f}\n")
+           atom_index += 1
+       else:
+           new_lines.append(line)
+   
+   # overwrite the input file
+   with open(input_parameters.BSE_input_file_name, "w") as f:
+       f.writelines(new_lines)

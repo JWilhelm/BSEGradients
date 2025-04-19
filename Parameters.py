@@ -8,6 +8,8 @@ class INPUT_PARAMETERS:
 
    CP2K_output_file_name                    = "cp2k.out"
 
+   BSE_input_file_name                      = "BSE.inp"
+
    excited_state_to_optimize                = 1
 
    atom_displacement_in_Angstrom            = 0.01
