@@ -57,35 +57,39 @@ def gradient_function(coords_array, input_parameters, control_parameters):
     n_atoms = len(coords_array) // 3
     grad = np.zeros_like(coords_array)
     delta = input_parameters.atom_displacement_in_Angstrom
+    displacements = np.linspace(-1, 1, input_parameters.n_eval_per_derivative)
 
     for i in range(len(coords_array)):
-        coords_array_forward = coords_array.copy()
-        coords_array_backward = coords_array.copy()
-        coords_array_forward[i] += delta
-        coords_array_backward[i] -= delta
 
-        start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_forward)
-        start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_backward)
+      for disp in displacements:
+
+        coords_array_shifted = coords_array.copy()
+        coords_array_shifted[i] += delta*disp
+
+        start_BSE_single_point_calc(input_parameters, control_parameters, coords_array_shifted)
 
 
     control_parameters.BSE_single_point_index = 0
+    E_tot = []
+    disp_success = []
 
     for i in range(len(coords_array)):
 
-        control_parameters.BSE_single_point_index += 1
-        calcdir = calcdirname(control_parameters, input_parameters)
-        BSE_output_1 = read_BSE_single_point_calc(input_parameters, calcdir)
-        E_plus = BSE_output_1.E_tot
+      for disp in displacements:
 
         control_parameters.BSE_single_point_index += 1
         calcdir = calcdirname(control_parameters, input_parameters)
-        BSE_output_2 = read_BSE_single_point_calc(input_parameters, calcdir)
-        E_minus = BSE_output_2.E_tot
+        BSE_output = read_BSE_single_point_calc(input_parameters, calcdir)
+        if BSE_output.BSE_success:
+           E_tot.append( BSE_output.E_tot )
+           disp_success.append( disp )
 
-        if BSE_output_1.BSE_success and BSE_output_2.BSE_success:
-           grad[i] = (E_plus - E_minus) / (2 * delta)
-        else:
-           grad[i] = 0.0
+      if len(disp_success) >= 3:
+          # fit a polynomial of second order to disp_success, E_tot; linear order is the slope
+          coeffs = np.polyfit(disp_success, E_tot, 2)
+          grad[i] = coeffs[1]/delta
+      else:
+         grad[i] = 0.0
 
     return grad
 

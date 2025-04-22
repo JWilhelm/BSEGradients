@@ -14,7 +14,9 @@ class INPUT_PARAMETERS:
 
    atom_displacement_in_Angstrom            = 0.01
 
-   threshold_energy_change_eV               = 0.001
+   threshold_energy_change_eV               = 0.005
+
+   n_eval_per_derivative                    = 5
 
 
 class CONTROL_PARAMETERS:

@@ -1,0 +1,1140 @@
+Input | Excited_state_to_optimize : 1
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24218147 Hartree (6.5900 eV)
+
+Total energy:        -21.43335429 Hartree (-583.2230 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24226232 Hartree (6.5922 eV)
+
+Total energy:        -21.43327344 Hartree (-583.2208 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   5.995000   6.000000   5.400000
+                    O   6.005000   6.000000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24225497 Hartree (6.5920 eV)
+
+Total energy:        -21.43326888 Hartree (-583.2207 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   5.997500   6.000000   5.400000
+                    O   6.002500   6.000000   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24221455 Hartree (6.5909 eV)
+
+Total energy:        -21.43331819 Hartree (-583.2220 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24222925 Hartree (6.5913 eV)
+
+Total energy:        -21.43330652 Hartree (-583.2217 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.002500   6.000000   5.400000
+                    O   5.997500   6.000000   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24216677 Hartree (6.5896 eV)
+
+Total energy:        -21.43336596 Hartree (-583.2233 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.005000   6.000000   5.400000
+                    O   5.995000   6.000000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24222925 Hartree (6.5913 eV)
+
+Total energy:        -21.43329460 Hartree (-583.2214 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   5.995000   5.400000
+                    O   6.000000   6.005000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24217780 Hartree (6.5899 eV)
+
+Total energy:        -21.43334605 Hartree (-583.2228 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   5.997500   5.400000
+                    O   6.000000   6.002500   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24227335 Hartree (6.5925 eV)
+
+Total energy:        -21.43325939 Hartree (-583.2204 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24228437 Hartree (6.5928 eV)
+
+Total energy:        -21.43325139 Hartree (-583.2202 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.002500   5.400000
+                    O   6.000000   5.997500   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24223292 Hartree (6.5914 eV)
+
+Total energy:        -21.43329981 Hartree (-583.2215 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.005000   5.400000
+                    O   6.000000   5.995000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24225130 Hartree (6.5919 eV)
+
+Total energy:        -21.43327255 Hartree (-583.2208 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.395000
+                    O   6.000000   6.000000   6.605000
+
+Ground state energy: -21.67337914 Hartree (-589.7543 eV)
+
+Excited state energy: 0.23877109 Hartree (6.4972 eV)
+
+Total energy:        -21.43460806 Hartree (-583.2571 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.397500
+                    O   6.000000   6.000000   6.602500
+
+Ground state energy: -21.67449034 Hartree (-589.7846 eV)
+
+Excited state energy: 0.24053508 Hartree (6.5452 eV)
+
+Total energy:        -21.43395527 Hartree (-583.2394 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24222925 Hartree (6.5913 eV)
+
+Total energy:        -21.43330652 Hartree (-583.2217 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.402500
+                    O   6.000000   6.000000   6.597500
+
+Ground state energy: -21.67651278 Hartree (-589.8396 eV)
+
+Excited state energy: 0.24402264 Hartree (6.6401 eV)
+
+Total energy:        -21.43249014 Hartree (-583.1995 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.405000
+                    O   6.000000   6.000000   6.595000
+
+Ground state energy: -21.67741909 Hartree (-589.8643 eV)
+
+Excited state energy: 0.24571313 Hartree (6.6861 eV)
+
+Total energy:        -21.43170596 Hartree (-583.1782 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.005000   6.000000   5.400000
+                    O   5.995000   6.000000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24227702 Hartree (6.5926 eV)
+
+Total energy:        -21.43324683 Hartree (-583.2201 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.002500   6.000000   5.400000
+                    O   5.997500   6.000000   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24220720 Hartree (6.5907 eV)
+
+Total energy:        -21.43332554 Hartree (-583.2222 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24218515 Hartree (6.5901 eV)
+
+Total energy:        -21.43335062 Hartree (-583.2229 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   5.997500   6.000000   5.400000
+                    O   6.002500   6.000000   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24221087 Hartree (6.5908 eV)
+
+Total energy:        -21.43332186 Hartree (-583.2221 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   5.995000   6.000000   5.400000
+                    O   6.005000   6.000000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24217780 Hartree (6.5899 eV)
+
+Total energy:        -21.43334605 Hartree (-583.2228 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.005000   5.400000
+                    O   6.000000   5.995000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24225497 Hartree (6.5920 eV)
+
+Total energy:        -21.43326888 Hartree (-583.2207 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.002500   5.400000
+                    O   6.000000   5.997500   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24222557 Hartree (6.5912 eV)
+
+Total energy:        -21.43330716 Hartree (-583.2217 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24227702 Hartree (6.5926 eV)
+
+Total energy:        -21.43325874 Hartree (-583.2204 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   5.997500   5.400000
+                    O   6.000000   6.002500   6.600000
+
+Ground state energy: -21.67553273 Hartree (-589.8129 eV)
+
+Excited state energy: 0.24225130 Hartree (6.5919 eV)
+
+Total energy:        -21.43328144 Hartree (-583.2210 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   5.995000   5.400000
+                    O   6.000000   6.005000   6.600000
+
+Ground state energy: -21.67552385 Hartree (-589.8127 eV)
+
+Excited state energy: 0.24223292 Hartree (6.5914 eV)
+
+Total energy:        -21.43329093 Hartree (-583.2213 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.405000
+                    O   6.000000   6.000000   6.595000
+
+Ground state energy: -21.67741909 Hartree (-589.8643 eV)
+
+Excited state energy: 0.24580501 Hartree (6.6886 eV)
+
+Total energy:        -21.43161408 Hartree (-583.1757 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.402500
+                    O   6.000000   6.000000   6.597500
+
+Ground state energy: -21.67651278 Hartree (-589.8396 eV)
+
+Excited state energy: 0.24409246 Hartree (6.6420 eV)
+
+Total energy:        -21.43242031 Hartree (-583.1976 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.400000
+                    O   6.000000   6.000000   6.600000
+
+Ground state energy: -21.67553576 Hartree (-589.8130 eV)
+
+Excited state energy: 0.24228070 Hartree (6.5927 eV)
+
+Total energy:        -21.43325507 Hartree (-583.2203 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.397500
+                    O   6.000000   6.000000   6.602500
+
+Ground state energy: -21.67449034 Hartree (-589.7846 eV)
+
+Excited state energy: 0.24052405 Hartree (6.5449 eV)
+
+Total energy:        -21.43396629 Hartree (-583.2397 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.000000   6.000000   5.395000
+                    O   6.000000   6.000000   6.605000
+
+Ground state energy: -21.67337914 Hartree (-589.7543 eV)
+
+Excited state energy: 0.23871596 Hartree (6.4957 eV)
+
+Total energy:        -21.43466318 Hartree (-583.2586 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22423652 Hartree (6.1017 eV)
+
+Total energy:        -21.43775203 Hartree (-583.3427 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.013697   6.014090   5.374777
+                    O   5.986303   5.985909   6.625223
+
+Ground state energy: -21.66208054 Hartree (-589.4469 eV)
+
+Excited state energy: 0.22436882 Hartree (6.1053 eV)
+
+Total energy:        -21.43771172 Hartree (-583.3416 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.016197   6.014090   5.374777
+                    O   5.983803   5.985909   6.625223
+
+Ground state energy: -21.66203771 Hartree (-589.4457 eV)
+
+Excited state energy: 0.22426225 Hartree (6.1024 eV)
+
+Total energy:        -21.43777547 Hartree (-583.3433 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22429165 Hartree (6.1032 eV)
+
+Total energy:        -21.43769690 Hartree (-583.3412 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.021197   6.014090   5.374777
+                    O   5.978803   5.985909   6.625223
+
+Ground state energy: -21.66193334 Hartree (-589.4429 eV)
+
+Excited state energy: 0.22414465 Hartree (6.0992 eV)
+
+Total energy:        -21.43778869 Hartree (-583.3437 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023697   6.014090   5.374777
+                    O   5.976303   5.985909   6.625223
+
+Ground state energy: -21.66187234 Hartree (-589.4412 eV)
+
+Excited state energy: 0.22416302 Hartree (6.0997 eV)
+
+Total energy:        -21.43770932 Hartree (-583.3415 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.009091   5.374777
+                    O   5.981303   5.990909   6.625223
+
+Ground state energy: -21.66205641 Hartree (-589.4462 eV)
+
+Excited state energy: 0.22436147 Hartree (6.1051 eV)
+
+Total energy:        -21.43769494 Hartree (-583.3411 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.011591   5.374777
+                    O   5.981303   5.988410   6.625223
+
+Ground state energy: -21.66202592 Hartree (-589.4454 eV)
+
+Excited state energy: 0.22429532 Hartree (6.1033 eV)
+
+Total energy:        -21.43773060 Hartree (-583.3421 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22434677 Hartree (6.1047 eV)
+
+Total energy:        -21.43764178 Hartree (-583.3397 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.016590   5.374777
+                    O   5.981303   5.983409   6.625223
+
+Ground state energy: -21.66194459 Hartree (-589.4432 eV)
+
+Excited state energy: 0.22421447 Hartree (6.1011 eV)
+
+Total energy:        -21.43773012 Hartree (-583.3421 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.019090   5.374777
+                    O   5.981303   5.980910   6.625223
+
+Ground state energy: -21.66189433 Hartree (-589.4418 eV)
+
+Excited state energy: 0.22412627 Hartree (6.0987 eV)
+
+Total energy:        -21.43776806 Hartree (-583.3431 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.369777
+                    O   5.981303   5.985909   6.630223
+
+Ground state energy: -21.65875905 Hartree (-589.3565 eV)
+
+Excited state energy: 0.22085921 Hartree (6.0098 eV)
+
+Total energy:        -21.43789984 Hartree (-583.3467 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.372277
+                    O   5.981303   5.985909   6.627723
+
+Ground state energy: -21.66039409 Hartree (-589.4010 eV)
+
+Excited state energy: 0.22249090 Hartree (6.0542 eV)
+
+Total energy:        -21.43790319 Hartree (-583.3468 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22421447 Hartree (6.1011 eV)
+
+Total energy:        -21.43777408 Hartree (-583.3433 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.377277
+                    O   5.981303   5.985909   6.622723
+
+Ground state energy: -21.66354041 Hartree (-589.4866 eV)
+
+Excited state energy: 0.22601889 Hartree (6.1502 eV)
+
+Total energy:        -21.43752152 Hartree (-583.3364 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.379777
+                    O   5.981303   5.985909   6.620223
+
+Ground state energy: -21.66504753 Hartree (-589.5276 eV)
+
+Excited state energy: 0.22779023 Hartree (6.1984 eV)
+
+Total energy:        -21.43725730 Hartree (-583.3292 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023697   6.014090   5.374777
+                    O   5.976303   5.985909   6.625223
+
+Ground state energy: -21.66187234 Hartree (-589.4412 eV)
+
+Excited state energy: 0.22416302 Hartree (6.0997 eV)
+
+Total energy:        -21.43770932 Hartree (-583.3415 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.021197   6.014090   5.374777
+                    O   5.978803   5.985909   6.625223
+
+Ground state energy: -21.66193334 Hartree (-589.4429 eV)
+
+Excited state energy: 0.22415935 Hartree (6.0996 eV)
+
+Total energy:        -21.43777399 Hartree (-583.3433 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22428797 Hartree (6.1031 eV)
+
+Total energy:        -21.43770058 Hartree (-583.3413 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.016197   6.014090   5.374777
+                    O   5.983803   5.985909   6.625223
+
+Ground state energy: -21.66203771 Hartree (-589.4457 eV)
+
+Excited state energy: 0.22431002 Hartree (6.1037 eV)
+
+Total energy:        -21.43772769 Hartree (-583.3420 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.013697   6.014090   5.374777
+                    O   5.986303   5.985909   6.625223
+
+Ground state energy: -21.66208054 Hartree (-589.4469 eV)
+
+Excited state energy: 0.22431737 Hartree (6.1039 eV)
+
+Total energy:        -21.43776317 Hartree (-583.3430 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.019090   5.374777
+                    O   5.981303   5.980910   6.625223
+
+Ground state energy: -21.66189433 Hartree (-589.4418 eV)
+
+Excited state energy: 0.22408952 Hartree (6.0977 eV)
+
+Total energy:        -21.43780481 Hartree (-583.3441 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.016590   5.374777
+                    O   5.981303   5.983409   6.625223
+
+Ground state energy: -21.66194459 Hartree (-589.4432 eV)
+
+Excited state energy: 0.22428062 Hartree (6.1029 eV)
+
+Total energy:        -21.43766397 Hartree (-583.3403 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22429900 Hartree (6.1034 eV)
+
+Total energy:        -21.43768955 Hartree (-583.3410 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.011590   5.374777
+                    O   5.981303   5.988410   6.625223
+
+Ground state energy: -21.66202592 Hartree (-589.4454 eV)
+
+Excited state energy: 0.22428797 Hartree (6.1031 eV)
+
+Total energy:        -21.43773795 Hartree (-583.3423 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.009091   5.374777
+                    O   5.981303   5.990910   6.625223
+
+Ground state energy: -21.66205641 Hartree (-589.4462 eV)
+
+Excited state energy: 0.22432472 Hartree (6.1041 eV)
+
+Total energy:        -21.43773169 Hartree (-583.3421 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.379777
+                    O   5.981303   5.985909   6.620223
+
+Ground state energy: -21.66504753 Hartree (-589.5276 eV)
+
+Excited state energy: 0.22770938 Hartree (6.1962 eV)
+
+Total energy:        -21.43733815 Hartree (-583.3314 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.377277
+                    O   5.981303   5.985909   6.622723
+
+Ground state energy: -21.66354041 Hartree (-589.4866 eV)
+
+Excited state energy: 0.22602624 Hartree (6.1504 eV)
+
+Total energy:        -21.43751417 Hartree (-583.3362 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.374777
+                    O   5.981303   5.985909   6.625223
+
+Ground state energy: -21.66198855 Hartree (-589.4444 eV)
+
+Excited state energy: 0.22425122 Hartree (6.1021 eV)
+
+Total energy:        -21.43773733 Hartree (-583.3423 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.372277
+                    O   5.981303   5.985909   6.627723
+
+Ground state energy: -21.66039409 Hartree (-589.4010 eV)
+
+Excited state energy: 0.22254235 Hartree (6.0556 eV)
+
+Total energy:        -21.43785174 Hartree (-583.3454 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018697   6.014090   5.369777
+                    O   5.981303   5.985909   6.630223
+
+Ground state energy: -21.65875905 Hartree (-589.3565 eV)
+
+Excited state energy: 0.22066076 Hartree (6.0044 eV)
+
+Total energy:        -21.43809829 Hartree (-583.3521 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21914667 Hartree (5.9632 eV)
+
+Total energy:        -21.43799537 Hartree (-583.3493 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018408   6.018930   5.367673
+                    O   5.981592   5.981070   6.632326
+
+Ground state energy: -21.65726377 Hartree (-589.3158 eV)
+
+Excited state energy: 0.21921282 Hartree (5.9650 eV)
+
+Total energy:        -21.43805095 Hartree (-583.3508 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.020908   6.018930   5.367673
+                    O   5.979092   5.981070   6.632326
+
+Ground state energy: -21.65720600 Hartree (-589.3142 eV)
+
+Excited state energy: 0.21917974 Hartree (5.9641 eV)
+
+Total energy:        -21.43802625 Hartree (-583.3501 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21924957 Hartree (5.9660 eV)
+
+Total energy:        -21.43789247 Hartree (-583.3465 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.025908   6.018930   5.367673
+                    O   5.974092   5.981070   6.632326
+
+Ground state energy: -21.65707213 Hartree (-589.3106 eV)
+
+Excited state energy: 0.21908419 Hartree (5.9615 eV)
+
+Total energy:        -21.43798793 Hartree (-583.3491 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.028408   6.018930   5.367673
+                    O   5.971592   5.981070   6.632326
+
+Ground state energy: -21.65699648 Hartree (-589.3085 eV)
+
+Excited state energy: 0.21883797 Hartree (5.9548 eV)
+
+Total energy:        -21.43815851 Hartree (-583.3537 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.013930   5.367673
+                    O   5.976592   5.986070   6.632326
+
+Ground state energy: -21.65724095 Hartree (-589.3152 eV)
+
+Excited state energy: 0.21921282 Hartree (5.9650 eV)
+
+Total energy:        -21.43802813 Hartree (-583.3502 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.016430   5.367673
+                    O   5.976592   5.983570   6.632326
+
+Ground state energy: -21.65719485 Hartree (-589.3139 eV)
+
+Excited state energy: 0.21927897 Hartree (5.9668 eV)
+
+Total energy:        -21.43791589 Hartree (-583.3471 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21924589 Hartree (5.9659 eV)
+
+Total energy:        -21.43789614 Hartree (-583.3466 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.021430   5.367673
+                    O   5.976592   5.978570   6.632326
+
+Ground state energy: -21.65708280 Hartree (-589.3109 eV)
+
+Excited state energy: 0.21916504 Hartree (5.9637 eV)
+
+Total energy:        -21.43791776 Hartree (-583.3472 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.023930   5.367673
+                    O   5.976592   5.976070   6.632326
+
+Ground state energy: -21.65701743 Hartree (-589.3091 eV)
+
+Excited state energy: 0.21902172 Hartree (5.9598 eV)
+
+Total energy:        -21.43799571 Hartree (-583.3493 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.362674
+                    O   5.976592   5.981070   6.637327
+
+Ground state energy: -21.65369001 Hartree (-589.2186 eV)
+
+Excited state energy: 0.21561868 Hartree (5.8672 eV)
+
+Total energy:        -21.43807133 Hartree (-583.3514 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.365174
+                    O   5.976592   5.981070   6.634826
+
+Ground state energy: -21.65543366 Hartree (-589.2660 eV)
+
+Excited state energy: 0.21743045 Hartree (5.9165 eV)
+
+Total energy:        -21.43800321 Hartree (-583.3495 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21914667 Hartree (5.9632 eV)
+
+Total energy:        -21.43799537 Hartree (-583.3493 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.370173
+                    O   5.976592   5.981070   6.629827
+
+Ground state energy: -21.65881350 Hartree (-589.3580 eV)
+
+Excited state energy: 0.22071589 Hartree (6.0059 eV)
+
+Total energy:        -21.43809761 Hartree (-583.3521 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.372674
+                    O   5.976592   5.981070   6.627327
+
+Ground state energy: -21.66044623 Hartree (-589.4024 eV)
+
+Excited state energy: 0.22265995 Hartree (6.0588 eV)
+
+Total energy:        -21.43778628 Hartree (-583.3436 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.028408   6.018930   5.367673
+                    O   5.971592   5.981070   6.632326
+
+Ground state energy: -21.65699648 Hartree (-589.3085 eV)
+
+Excited state energy: 0.21901069 Hartree (5.9595 eV)
+
+Total energy:        -21.43798579 Hartree (-583.3490 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.025908   6.018930   5.367673
+                    O   5.974092   5.981070   6.632326
+
+Ground state energy: -21.65707213 Hartree (-589.3106 eV)
+
+Excited state energy: 0.21899599 Hartree (5.9591 eV)
+
+Total energy:        -21.43807613 Hartree (-583.3515 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21904744 Hartree (5.9605 eV)
+
+Total energy:        -21.43809459 Hartree (-583.3520 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.020908   6.018930   5.367673
+                    O   5.979092   5.981070   6.632326
+
+Ground state energy: -21.65720600 Hartree (-589.3142 eV)
+
+Excited state energy: 0.21922017 Hartree (5.9652 eV)
+
+Total energy:        -21.43798583 Hartree (-583.3490 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.018408   6.018930   5.367673
+                    O   5.981592   5.981070   6.632326
+
+Ground state energy: -21.65726377 Hartree (-589.3158 eV)
+
+Excited state energy: 0.21928632 Hartree (5.9670 eV)
+
+Total energy:        -21.43797745 Hartree (-583.3488 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.023930   5.367673
+                    O   5.976592   5.976070   6.632326
+
+Ground state energy: -21.65701743 Hartree (-589.3091 eV)
+
+Excited state energy: 0.21903642 Hartree (5.9602 eV)
+
+Total energy:        -21.43798101 Hartree (-583.3489 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.021430   5.367673
+                    O   5.976592   5.978570   6.632326
+
+Ground state energy: -21.65708280 Hartree (-589.3109 eV)
+
+Excited state energy: 0.21913197 Hartree (5.9628 eV)
+
+Total energy:        -21.43795083 Hartree (-583.3481 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21913932 Hartree (5.9630 eV)
+
+Total energy:        -21.43800272 Hartree (-583.3495 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.016430   5.367673
+                    O   5.976592   5.983570   6.632326
+
+Ground state energy: -21.65719485 Hartree (-589.3139 eV)
+
+Excited state energy: 0.21918709 Hartree (5.9643 eV)
+
+Total energy:        -21.43800776 Hartree (-583.3496 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.013930   5.367673
+                    O   5.976592   5.986070   6.632326
+
+Ground state energy: -21.65724095 Hartree (-589.3152 eV)
+
+Excited state energy: 0.21921282 Hartree (5.9650 eV)
+
+Total energy:        -21.43802813 Hartree (-583.3502 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.372673
+                    O   5.976592   5.981070   6.627327
+
+Ground state energy: -21.66044623 Hartree (-589.4024 eV)
+
+Excited state energy: 0.22247620 Hartree (6.0538 eV)
+
+Total energy:        -21.43797003 Hartree (-583.3486 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.370173
+                    O   5.976592   5.981070   6.629827
+
+Ground state energy: -21.65881350 Hartree (-589.3580 eV)
+
+Excited state energy: 0.22089229 Hartree (6.0107 eV)
+
+Total energy:        -21.43792121 Hartree (-583.3473 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.367673
+                    O   5.976592   5.981070   6.632326
+
+Ground state energy: -21.65714204 Hartree (-589.3125 eV)
+
+Excited state energy: 0.21912094 Hartree (5.9625 eV)
+
+Total energy:        -21.43802109 Hartree (-583.3500 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.365174
+                    O   5.976592   5.981070   6.634826
+
+Ground state energy: -21.65543366 Hartree (-589.2660 eV)
+
+Excited state energy: 0.21730550 Hartree (5.9131 eV)
+
+Total energy:        -21.43812815 Hartree (-583.3529 eV)
+
+
+
+Molecular geometry: Atom type, x, y, z (in Angström)
+                    C   6.023408   6.018930   5.362674
+                    O   5.976592   5.981070   6.637327
+
+Ground state energy: -21.65369001 Hartree (-589.2186 eV)
+
+Excited state energy: 0.21571056 Hartree (5.8697 eV)
+
+Total energy:        -21.43797945 Hartree (-583.3489 eV)
+
+
+Optimization terminated successfully.
+         Current function value: -21.437995
+         Iterations: 2
+         Function evaluations: 3
+         Gradient evaluations: 3
+
+Final energy: -21.43799537 Hartree (-583.349 eV)
+
+Final coordinates (Angstrom):
+Atom 1: 6.002199 6.001875 5.338693
+Atom 2: 5.955383 5.964015 6.603346
